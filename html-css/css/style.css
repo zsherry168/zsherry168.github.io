@@ -68,36 +68,19 @@ h3,li {
 	font-size: 40px;
 	text-align: center;
 }
-.homeButtons {
-	font-family: 'IBM Plex Sans';
-	font-size: 25px;
-	color: white;
-	background-color: rgb(28, 79, 116);
-	border: none;
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	margin-left: 50px;
-	margin-right: 10px;
+
+/* Styling for About Me Page */
+
+.aboutMePhoto {
+	width: 400px;
+	height: 400px;
+	border-radius: 15%;
+	object-fit: cover;
+	object-position: center;
 	margin-top: 30px;
-	margin-bottom: 10px;
-	cursor: pointer;
-	transition: opacity 0.3s,
-		box-shadow 0.3s;
-		font-size: 0.3s;
-		background-color: 0.3;
-	vertical-align: top;
-}
-
-.homeButtons:hover {
-  opacity: 0.9;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-	font-size: 30px;
-	background-color: rgb(100, 157, 198);
-}
-
-.homeButtons:active {
-  opacity: 0.5;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 /* Styling for Relevant Courses Page */
@@ -171,12 +154,3 @@ h3,li {
 	margin-right: 8px;
 }
 
-
-/* Styling for About Me Page */
-
-.aboutMePhoto {
-	width: 300px;
-	height: 300px;
-	object-fit: cover;
-	object-position: center;
-}
