@@ -31,6 +31,9 @@ export const Projects = () => {
 					</svg>
 					&nbsp; = &nbsp; Projects I want to highlight
 				</p>
+				<p>
+					Running a test on this page
+				</p>
 				<Accordion defaultActiveKey="0">
 					<Accordion.Item eventKey="0">
 						<Accordion.Header>
