@@ -1,0 +1,25 @@
+body {
+  font-family: 'IBM Plex Sans';
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+  color: rgb(7, 55, 78);
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 35px;
+  color: rgb(7, 69, 98);
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.picture {
+  width: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25)
+}

@@ -1,0 +1,25 @@
+p, h5 {
+  color: rgb(7, 69, 98);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  margin-left: -200px;
+  margin-right: -200px;
+  margin-bottom: -200px;
+}
+
+.info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact {
+  font-weight: bold;
+}
+.react {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
