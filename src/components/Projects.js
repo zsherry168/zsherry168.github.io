@@ -153,7 +153,13 @@ export const Projects = () => {
 									<div class="section">
 										<h5>Summary</h5>
 										<p>
-											Summary
+											Ever since high school, I always wanted a personal website. I tried Wix.com and other 
+											web development services; however, I never yielded any successful results. It wasn't 
+											until I self-taught myself the basics of HTML and CSS did I finally create my first website. 
+											Once completed, I eagerly launched my website on GitHub Pages but told myself I could do better. 
+											In turn, I rebuilt my website (the one you see today) using React.js and React Bootstrap and 
+											replaced the old one. While I work on other projects, I hope to continue improving this website 
+											and further developing my skills in web development. 
 										</p>
 									</div>
 									<div class="section">
@@ -173,7 +179,7 @@ export const Projects = () => {
 									</div>
 									<div class="section">
 										<h5>Preview</h5>
-										<p>* Below is an image of my old website's home page, which is quite similar to my current homepage.</p>
+										<p>* Below is an image of my old website, which is very similar to my current one.</p>
 										<img src={oldwebsite} alt="" class="d-block w-75" style={{borderRadius: 10}}/>
 									</div>		
 								</div>
