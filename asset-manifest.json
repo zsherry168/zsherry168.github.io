@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e759ca66.css",
+    "main.js": "/static/js/main.b257e2a7.js",
+    "static/js/787.97c5b73f.chunk.js": "/static/js/787.97c5b73f.chunk.js",
+    "static/media/oldwebsite.png": "/static/media/oldwebsite.02cc0c6de5adff2701dc.png",
+    "static/media/headshot2.jpg": "/static/media/headshot2.3698b9b76e741a0b302a.jpg",
+    "static/media/nittanyreads.png": "/static/media/nittanyreads.77f3c301f5d945e1e418.png",
+    "static/media/headshot.jpg": "/static/media/headshot.1b1201c5d64aa0defd4e.jpg",
+    "static/media/reactLogo.png": "/static/media/reactLogo.becbab0ab5d2271d2831.png",
+    "static/media/sherry.png": "/static/media/sherry.e583667a0e4248db84f6.png",
+    "static/media/postgreSQLLogo.png": "/static/media/postgreSQLLogo.1b904635aedb7c19150d.png",
+    "static/media/pythonLogo.png": "/static/media/pythonLogo.82efb64f8698a267f8bf.png",
+    "static/media/linuxLogo.png": "/static/media/linuxLogo.b79d9a382fd8984cff12.png",
+    "static/media/vscodeLogo.png": "/static/media/vscodeLogo.e66400756ccbdbfc0b31.png",
+    "static/media/javaLogo.png": "/static/media/javaLogo.35397b59170cfd616fee.png",
+    "static/media/flaskLogo.png": "/static/media/flaskLogo.932320f6a302fa4fc94e.png",
+    "static/media/SherryZhangResume.pdf": "/static/media/SherryZhangResume.40006beaade1fa29e171.pdf",
+    "static/media/atomLogo.png": "/static/media/atomLogo.a721652716432b0e7b20.png",
+    "static/media/netbeansLogo.png": "/static/media/netbeansLogo.ab8746b27554bb4253f9.png",
+    "static/media/bootstrapLogo.png": "/static/media/bootstrapLogo.cb0fcc269e8250f3551b.png",
+    "static/media/htmlLogo.png": "/static/media/htmlLogo.f3aa7827cd5160f3fc1c.png",
+    "static/media/javascriptLogo.png": "/static/media/javascriptLogo.76536eb2b86398277df3.png",
+    "static/media/cssLogo.png": "/static/media/cssLogo.1334cb45a7d5ad096543.png",
+    "static/media/solidityLogo.png": "/static/media/solidityLogo.5910fb9cfeb3befef844.png",
+    "static/media/socketioLogo.png": "/static/media/socketioLogo.9ea2abef91c7aeab3aed.png",
+    "static/media/sqlLogo.png": "/static/media/sqlLogo.8c53f46599d600c84b79.png",
+    "static/media/cLogo.png": "/static/media/cLogo.83dfa097dfa94f707a41.png",
+    "static/media/gitLogo.png": "/static/media/gitLogo.dfdd0989ffe0184bdd68.png",
+    "static/media/nodeLogo.png": "/static/media/nodeLogo.07d152a8a036951b8d14.png",
+    "static/media/djangoLogo.png": "/static/media/djangoLogo.1561b91d7b75f3ca2814.png",
+    "static/media/rbootstrapLogo.png": "/static/media/rbootstrapLogo.efdec1327625a824a51e.png",
+    "index.html": "/index.html",
+    "main.e759ca66.css.map": "/static/css/main.e759ca66.css.map",
+    "main.b257e2a7.js.map": "/static/js/main.b257e2a7.js.map",
+    "787.97c5b73f.chunk.js.map": "/static/js/787.97c5b73f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e759ca66.css",
+    "static/js/main.b257e2a7.js"
+  ]
+}
