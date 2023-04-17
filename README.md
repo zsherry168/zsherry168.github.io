@@ -10,3 +10,6 @@ Check out my personal website at [zsherry168.github.io](https://zsherry168.githu
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+## Technical Issues
+- GitHub Pages does not natively support single-page apps. Therefore, when the page refreshes for a URL like zsherry168.github.io/about, where /about is the frontend route, GitHub Pages' server returns a 404 error because it does not know anything about /about.
+- Favicon does not display in the tab
