@@ -73,7 +73,7 @@ export const Projects = () => {
 									<div class="section">
 										<h5>Summary</h5>
 										<p>
-											ChitChat
+											Need to complete. Also running a test on deployment
 										</p>
 									</div>
 									<div class="section">
