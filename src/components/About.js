@@ -111,8 +111,8 @@ export const About = () => {
                         </Row> */}
                     </Container>
                 </div>
-                <Footer/>
             </div>
+            <Footer/>
         </>
     )
 }

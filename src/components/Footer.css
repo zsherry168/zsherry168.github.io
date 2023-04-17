@@ -5,9 +5,7 @@ p, h5 {
 }
 
 .footer {
-  margin-left: -200px;
-  margin-right: -200px;
-  margin-bottom: -200px;
+  margin: auto;
 }
 
 .info {
