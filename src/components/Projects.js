@@ -25,15 +25,12 @@ export const Projects = () => {
 			<div class="container"> 
 				<div class="projects">
 					<h1>Projects</h1>
-					<p>Below are projects I have completed in the past or currently working on.</p>
+					<p>Below are projects I have completed in the past or am currently working on.</p>
 					<p>
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
 							<path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
 						</svg>
 						&nbsp; = &nbsp; Projects I want to highlight
-					</p>
-					<p>
-						Running a test on this page
 					</p>
 					<Accordion defaultActiveKey="0">
 						<Accordion.Item eventKey="0">
@@ -48,7 +45,23 @@ export const Projects = () => {
 									<div class="section">
 										<h5>Summary</h5>
 										<p>
-											mdadm Linear Device
+											mdadm (multiple disk and device administration) is a Linux utility used to manage 
+											linear devices, which makes multiple disks appear as one large disk to the operating 
+											system. In this project, the linear device consists of 16 disks, with each disk having 
+											256 blocks and each block having 256 bytes. 
+										</p>
+										<p>
+											The mdadm library provides four basic functionalities: mdadm_mount(), mdadm_unmount(), 
+											mdadm_read(), and mdadm_write(). To be brief, mdadm_mount() mounts the linear device, 
+											so mdadm users can perform read and write operations. On the other hand, mdadm_unmount() 
+											does the opposite; it unmounts the linear device. mdadm_read() reads a given number of bytes 
+											into a buffer starting at a designated address. Last, mdadm_write() does the opposite of read 
+											and writes a given number of bytes from a buffer starting at an appointed address. 
+										</p>
+										<p>
+											To improve the latency and reduce cost, a cache was created and implemented into the read and 
+											write functions. Now, I am adding networking support to the mdadm to make the system more flexible 
+											and practical.
 										</p>
 									</div>
 									<div class="section">
@@ -59,12 +72,17 @@ export const Projects = () => {
 									<div class="section">
 										<h5>GitHub</h5>
 										<p>
-											GitHub unavailable due to Penn State EECS regulations on Academic Integrity. 
-											In other words, I do not want future CMPSC 311 students to plagiarize my code.
+											Unavailable due to Penn State EECS Academic Integrity regulations. I do not
+											want future CMPSC 311 students to plagiarize my code. However, I can provide 
+											code samples upon request.
 										</p>
 									</div>
 									<div class="section">
 										<h5>Preview</h5>
+										<p>
+											Currently not available! Although, I will attach a PDF of the manual for the library 
+											once the project is complete.
+										</p>
 									</div>		
 								</div>
 							</Accordion.Body>
@@ -77,7 +95,13 @@ export const Projects = () => {
 										<div class="section">
 											<h5>Summary</h5>
 											<p>
-												Need to complete. Also running a test on deployment
+												ChitChat is an online messaging service built with the Flask microframework and 
+												Socket.IO library. The application is written in Python, JavaScript, HTML, and CSS 
+												and supports real-time bi-directional communication between web clients and servers. 
+												Upon arrival, users are asked to enter a display name. After, users may join an existing 
+												channel or create a new one. Inside the channel, users can send as many messages as they 
+												desire and receive messages from other users. Furthermore, users can also see the preexisting 
+												messages in a channel upon entrance. 
 											</p>
 										</div>
 										<div class="section">
@@ -99,6 +123,7 @@ export const Projects = () => {
 										</div>
 										<div class="section">
 											<h5>Preview</h5>
+											<p>Available soon!</p>
 										</div>		
 									</div>
 							</Accordion.Body>
@@ -161,8 +186,8 @@ export const Projects = () => {
 												web development services; however, I never yielded any successful results. It wasn't 
 												until I self-taught myself the basics of HTML and CSS did I finally create my first website. 
 												Once completed, I eagerly launched my website on GitHub Pages but told myself I could do better. 
-												In turn, I rebuilt my website (the one you see today) using React.js and React Bootstrap and 
-												replaced the old one. While I work on other projects, I hope to continue improving this website 
+												In turn, I rebuilt my website (the one you see today) using React and React Bootstrap and 
+												replaced the old website. While I work on other projects, I hope to continue improving this website 
 												and further developing my skills in web development. 
 											</p>
 										</div>

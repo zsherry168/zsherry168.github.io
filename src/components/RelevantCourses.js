@@ -30,7 +30,8 @@ export const RelevantCourses = () => {
                 <h1>Relevant Courses</h1>
                 <p>
                     Below is a list of relevant computer science, computer engineering, 
-                    and mathematics courses I have taken so far at Penn State.
+                    and mathematics courses I have taken so far or am currently taking 
+                    at Penn State.
                 </p>
                 {/* Computer Science Courses */}
                 <div class="courseContainer">
@@ -69,7 +70,7 @@ export const RelevantCourses = () => {
                             <li>CMPSC 297: Hands-on Web Development</li>
                             <p>
                                 Design and implementation of web applications using programming languages, 
-                                such as Python, Javascript, and SQL, and frameworks like Bootstrap, Flask, 
+                                such as Python, JavaScript, and SQL, and frameworks like Bootstrap, Flask, 
                                 and Django. Topics include database design, scalability, security, UI/UX, and APIs.
                             </p>
                             <img src={pythonLogo} class="logo" alt=""/>
@@ -87,7 +88,7 @@ export const RelevantCourses = () => {
                             <p>
                                 Blockchain technology and Web3 development. Covers the basics of coding blockchains 
                                 and using smart contracts to create decentralized web applications (dApps). Tools used 
-                                include Javascript, Express.js, Node.js, React.js, and Solidity.
+                                include JavaScript, React, Express, Node, and Solidity.
                             </p>
                             <img src={htmlLogo} class="logo" alt=""/>
                             <img src={cssLogo} class="logo" alt=""/>
@@ -99,9 +100,9 @@ export const RelevantCourses = () => {
                         <div class="courseDescription">
                             <li>CMPSC 221: Object Oriented Programming with Web-Based Applications</li>
                             <p>
-                                Object-oriented principles and their application to web-based, net-centric computing. 
+                                Object-oriented principles and their application to web-based net-centric computing. 
                                 Topics include virtual machines, intermediate code generation, GUI design, event handling, 
-                                and server-side programming with database queries. Languages used are Java and SQL.
+                                and server-side programming with database queries. Languages used include Java and SQL.
                             </p>
                             <img src={javaLogo} class="java" alt=""/>
                             <img src={sqlLogo} class="sql" alt=""/>
