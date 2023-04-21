@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.efc8d46b.css",
-    "main.js": "/static/js/main.a22dc69b.js",
+    "main.js": "/static/js/main.dda9ae19.js",
     "static/js/787.97c5b73f.chunk.js": "/static/js/787.97c5b73f.chunk.js",
     "static/media/oldwebsite.png": "/static/media/oldwebsite.02cc0c6de5adff2701dc.png",
     "static/media/headshot2.jpg": "/static/media/headshot2.3698b9b76e741a0b302a.jpg",
@@ -15,7 +15,7 @@
     "static/media/vscodeLogo.png": "/static/media/vscodeLogo.e66400756ccbdbfc0b31.png",
     "static/media/javaLogo.png": "/static/media/javaLogo.35397b59170cfd616fee.png",
     "static/media/flaskLogo.png": "/static/media/flaskLogo.932320f6a302fa4fc94e.png",
-    "static/media/SherryZhangResume.pdf": "/static/media/SherryZhangResume.40006beaade1fa29e171.pdf",
+    "static/media/SherryZhangResume.pdf": "/static/media/SherryZhangResume.e2a16b3b692713118025.pdf",
     "static/media/atomLogo.png": "/static/media/atomLogo.a721652716432b0e7b20.png",
     "static/media/netbeansLogo.png": "/static/media/netbeansLogo.ab8746b27554bb4253f9.png",
     "static/media/bootstrapLogo.png": "/static/media/bootstrapLogo.cb0fcc269e8250f3551b.png",
@@ -32,11 +32,11 @@
     "static/media/rbootstrapLogo.png": "/static/media/rbootstrapLogo.efdec1327625a824a51e.png",
     "index.html": "/index.html",
     "main.efc8d46b.css.map": "/static/css/main.efc8d46b.css.map",
-    "main.a22dc69b.js.map": "/static/js/main.a22dc69b.js.map",
+    "main.dda9ae19.js.map": "/static/js/main.dda9ae19.js.map",
     "787.97c5b73f.chunk.js.map": "/static/js/787.97c5b73f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efc8d46b.css",
-    "static/js/main.a22dc69b.js"
+    "static/js/main.dda9ae19.js"
   ]
 }
