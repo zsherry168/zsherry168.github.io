@@ -6,7 +6,7 @@ import Footer from './Footer.js';
 export const Home = () => {
     return (
         <>
-            <div class="container">
+            <div class="container animate__animated animate__fadeIn">
                 <h1>Sherry Zhang</h1>
                 <h2>Aspiring Software Engineer</h2>
                 <p>
