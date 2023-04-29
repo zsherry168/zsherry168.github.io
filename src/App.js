@@ -18,7 +18,7 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" sticky="top">
           <Container>
             <Nav.Link as={Link} to="/">
               <img src={icon} alt="" class="icon"/>
