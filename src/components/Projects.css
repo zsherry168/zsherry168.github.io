@@ -21,3 +21,7 @@ a {
 .images {
   width: 400px;
 }
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 1.7s;
+}

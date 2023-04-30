@@ -22,7 +22,7 @@ import oldwebsite from '../images/oldwebsite.png';
 export const Projects = () => {
     return (
 		<>
-			<div class="container"> 
+			<div class="container animate__animated animate__fadeIn"> 
 				<div class="projects">
 					<h1>Projects</h1>
 					<p>Below are projects I have completed in the past or am currently working on.</p>

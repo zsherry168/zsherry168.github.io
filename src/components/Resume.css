@@ -2,3 +2,7 @@ iframe {
   margin-top: 30px;
   margin-bottom: 40px;
 }
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 1.7s;
+}

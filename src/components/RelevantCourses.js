@@ -26,7 +26,7 @@ import Footer from './Footer.js';
 export const RelevantCourses = () => {
   return (
         <>
-            <div class="container">
+            <div class="container animate__animated animate__fadeIn">
                 <h1>Relevant Courses</h1>
                 <p>
                     Below is a list of relevant computer science, computer engineering, 

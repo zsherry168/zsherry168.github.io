@@ -8,7 +8,7 @@ export const Resume = () => {
     return (
         <>
             <div class="container">
-                <h1>Resume</h1>
+                <h1 class="animate__animated animate__fadeIn">Resume</h1>
                 <iframe 
                     src={resumepdf} 
                     class="resume" 

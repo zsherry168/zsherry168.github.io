@@ -28,7 +28,6 @@ function Footer () {
                     LinkedIn
                     </a>
                 </p>
-                <p>Last Updated: April 24, 2023</p>
                 <p class="react">Created with React</p>
             </div>
         </div>

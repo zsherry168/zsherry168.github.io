@@ -23,7 +23,7 @@ export const About = () => {
 
     return (
         <>
-            <div class="container">
+            <div class="container animate__animated animate__fadeIn">
                 <h1>About</h1>
                 <div class="aboutMeBody">
                     <Container>
