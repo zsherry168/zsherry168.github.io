@@ -28,12 +28,12 @@ function App() {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="mr-auto">
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
               <Nav.Link href="https://github.com/zsherry168" target="_blank">GitHub</Nav.Link>
               <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-              <Nav.Link as={Link} to="/relevantcourses">Relevant Courses</Nav.Link>
+              <Nav.Link as={Link} to="/relevantcourses" className="justify-content-end">Relevant Courses</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
