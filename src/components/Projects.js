@@ -15,9 +15,9 @@ import flaskLogo from '../logos/flaskLogo.png';
 import socketioLogo from '../logos/socketioLogo.png';
 import reactLogo from '../logos/reactLogo.png';
 import rbootstrapLogo from '../logos/rbootstrapLogo.png';
-import Footer from './Footer.js';
 import nittanyreads from '../images/nittanyreads.png';
 import oldwebsite from '../images/oldwebsite.png';
+import Footer from './Footer.js';
 
 export const Projects = () => {
     return (
@@ -32,36 +32,33 @@ export const Projects = () => {
 						</svg>
 						&nbsp; = &nbsp; Projects I want to highlight
 					</p>
-					<Accordion defaultActiveKey="0">
+					<Accordion>
 						<Accordion.Item eventKey="0">
 							<Accordion.Header>
 							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
 								<path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
 							</svg>
-							<span style={{fontWeight: 'bold'}}>&nbsp; mdadm Linear Device &nbsp; </span>(Jan 2023 -  Present)</Accordion.Header>
+							<span style={{fontWeight: 'bold'}}>&nbsp; mdadm Linear Device &nbsp; </span>(Jan 2023 -  Apr 2023)</Accordion.Header>
 							<Accordion.Body>
 								<div class="projectDescription">
-									<h2>mdadm Linear Device</h2>
+									<h2>mdadm Library for Linear Devices</h2>
 									<div class="section">
 										<h5>Summary</h5>
 										<p>
-											mdadm (multiple disk and device administration) is a Linux utility used to manage 
-											linear devices, which makes multiple disks appear as one large disk to the operating 
-											system. In this project, the linear device consists of 16 disks, with each disk having 
-											256 blocks and each block having 256 bytes. 
+											In Linux, mdadm (Multiple Disk and Device Management) is a utility used to manage 
+											software RAID (Redundant Array of Independent Disks) devices, which combines multiple 
+											physical disks into a single logical device to increase performance and reliability. 
+											For this project, I worked with a linear device—a Non-RAID configuration that concatenates 
+											the disks like a normal RAID configuration but without the performance increase and 
+											redundancy. To clarify, not having redundancy means that if one disk fails, the data on 
+											that disk may be lost.
 										</p>
 										<p>
-											The mdadm library provides four basic functionalities: mdadm_mount(), mdadm_unmount(), 
-											mdadm_read(), and mdadm_write(). To be brief, mdadm_mount() mounts the linear device, 
-											so mdadm users can perform read and write operations. On the other hand, mdadm_unmount() 
-											does the opposite; it unmounts the linear device. mdadm_read() reads a given number of bytes 
-											into a buffer starting at a designated address. Last, mdadm_write() does the opposite of read 
-											and writes a given number of bytes from a buffer starting at an appointed address. 
-										</p>
-										<p>
-											To improve the latency and reduce cost, a cache was created and implemented into the read and 
-											write functions. Now, I am adding networking support to the mdadm to make the system more flexible 
-											and practical.
+											The mdadm library I created allows mdadm users to work with the linear device with ease. 
+											Users may mount the linear device to read or write into disks or blocks and unmount the device 
+											once they finish. Furthermore, caching was implemented to improve latency and reduce cost. 
+											Networking was also added to provide greater flexibility and for users to connect to and 
+											interact with remote servers. 
 										</p>
 									</div>
 									<div class="section">
@@ -72,18 +69,22 @@ export const Projects = () => {
 									<div class="section">
 										<h5>GitHub</h5>
 										<p>
-											Unavailable due to Penn State EECS Academic Integrity regulations. I do not
-											want future CMPSC 311 students to plagiarize my code. However, I can provide 
-											code samples upon request.
+											Unavailable due to Penn State EECS Academic Integrity regulations. However, 
+											I can provide code samples upon request. In the meantime, check out the&nbsp;
+											<a href="https://docs.google.com/document/d/1LR4e_RKNGi9mAUFZK-RioMCl4XGtEIn8ml3P8e1UheE/edit?usp=sharing" target="_blank" rel="noreferrer">
+											documentation for the library
+											</a>
+											.
 										</p>
 									</div>
 									<div class="section">
-										<h5>Preview</h5>
-										<p>
-											Currently not available! Although, I will attach a PDF of the manual for the library 
-											once the project is complete.
-										</p>
-									</div>		
+										<h5>I Learned How To</h5>
+										<p>&#8226; Write a program using the C programming language</p>
+										<p>&#8226; Fix segmentation faults and other memory-related errors</p>
+										<p>&#8226; Use a debugger (some experience with gdb)</p>
+										<p>&#8226; Code functionalities of the cache</p>
+										<p>&#8226; Program a client that connects to a server and can send/receive packets</p>
+									</div>
 								</div>
 							</Accordion.Body>
 						</Accordion.Item>
@@ -118,12 +119,17 @@ export const Projects = () => {
 											<h5>GitHub</h5>
 											<a href="https://github.com/zsherry168/chitchat" target="_blank" rel="noreferrer">
 												<img src={githubLogo} class="github" alt=""/>
-												Click to view repository
+												Source Code
 											</a>
 										</div>
 										<div class="section">
+										<h5>I Learned How To</h5>
+											<p>&#8226; Use web sockets to enable communication between web clients and servers</p>
+											<p>&#8226; Employ JavaScript to output messags from other users in the channels</p>
+											<p>&#8226; Save chats using cookies instead of using a database</p>
+										</div>
+										<div class="section">
 											<h5>Preview</h5>
-											<p>Available soon!</p>
 										</div>		
 									</div>
 							</Accordion.Body>
@@ -164,8 +170,16 @@ export const Projects = () => {
 										<h5>GitHub</h5>
 										<a href="https://github.com/zsherry168/nittanyreads" target="_blank" rel="noreferrer">
 											<img src={githubLogo} class="github" alt=""/>
-											Click to view repository
+											Source Code
 										</a>
+									</div>
+									<div class="section">
+										<h5>I Learned How To</h5>
+										<p>&#8226; Map URLs to a specific function that handles the logic for that URL</p>
+										<p>&#8226; Use SQL and databases to store and extract information</p>
+										<p>&#8226; Implement Flask-Session for when users log into the server</p>
+										<p>&#8226; Get information from an API and display it to users</p>
+										<p>&#8226; Connect a front end and back end together</p>
 									</div>
 									<div class="section">
 										<h5>Preview</h5>
@@ -203,8 +217,16 @@ export const Projects = () => {
 											<h5>GitHub</h5>
 											<a href="https://github.com/zsherry168/zsherry168.github.io" target="_blank" rel="noreferrer">
 												<img src={githubLogo} class="github" alt=""/>
-												Click to view repository
+												Source Code
 											</a>
+										</div>
+										<div class="section">
+											<h5>I Learned How To</h5>
+											<p>&#8226; Use Git, GitHub, and basic Unix commands</p>
+											<p>&#8226; Create a simple front-end only website using HTML, CSS, and JavaScript</p>
+											<p>&#8226; Leverage reusable components instead of rewriting and repeating code</p>
+											<p>&#8226; Deploy a React application on GitHub Pages</p>
+											<p>&#8226; Utilize the Bootstrap library to handle responsiveness to user environment</p>
 										</div>
 										<div class="section">
 											<h5>Preview</h5>

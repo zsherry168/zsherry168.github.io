@@ -18,8 +18,8 @@ import reactLogo from '../logos/reactLogo.png';
 import solidityLogo from '../logos/solidityLogo.png';
 import javaLogo from '../logos/javaLogo.png';
 import netbeansLogo from '../logos/netbeansLogo.png';
-import atomLogo from '../logos/atomLogo.png';
 import vscodeLogo from '../logos/vscodeLogo.png';
+import cppLogo from '../logos/cppLogo.png';
 import Footer from './Footer.js';
 
 
@@ -30,15 +30,16 @@ export const RelevantCourses = () => {
                 <h1>Relevant Courses</h1>
                 <p>
                     Below is a list of relevant computer science, computer engineering, 
-                    and mathematics courses I have taken so far or am currently taking 
-                    at Penn State.
+                    and mathematics courses I have taken or am currently taking at Penn State. 
+                    I also have a community college course I am taking at West Valley College 
+                    this summer listed below too.
                 </p>
                 {/* Computer Science Courses */}
                 <div class="courseContainer">
                     <h2>Computer Science Courses</h2>
                     <ul>
                         {/* <div class="courseDescription">
-                            <li>CMPSC 461: Programming Language Concepts</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 461: Programming Language Concepts</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Fall 2023)</span></li>
                             <p>
                                 Fundamental concepts of programming language design, specifications, 
                                 and implementation; programming language paradigms and features; 
@@ -46,7 +47,17 @@ export const RelevantCourses = () => {
                             </p>
                         </div> */}
                         <div class="courseDescription">
-                            <li>CMPSC 465: Data Structures and Algorithms</li>
+                            <li><span style={{textDecoration: 'underline'}}>CIST 004A: Computer Programming I: C++ Programming</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Summer 2023 @ West Valley College)</span></li>
+                            <p>
+                                Concepts and methodologies of C++ programming, including object-oriented 
+                                design, decomposition, encapsulation, abstraction, and testing. Topics 
+                                include memory allocation, flow control, logic, objects, classes, methods 
+                                and argument passing, control structures, and iteration.
+                            </p>
+                            <img src={cppLogo} class="cpp" alt=""/>
+                        </div>
+                        <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 465: Data Structures and Algorithms</span></li>
                             <p>
                                 Fundamental concepts of computer science: data structures, 
                                 analysis of algorithms, recursion, trees, sets, graphs, and 
@@ -54,20 +65,20 @@ export const RelevantCourses = () => {
                             </p>
                         </div>
                         <div class="courseDescription">
-                            <li>CMPSC 311: Introduction to Systems Programming</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 311: Introduction to Systems Programming</span></li>
                             <p>
                                 Development of software components and methods: system programming 
                                 in C, organization of programs and data, program analysis and support 
                                 tools, software standards, and common system functions.
                             </p>
+                            <img src={cLogo} class="c" alt=""/>
                             <img src={linuxLogo} class="logo" alt=""/>
-                            <img src={cLogo} class="logo" alt=""/>
                             <img src={gitLogo} class="logo" alt=""/>
                             <img src={githubLogo} class="github" alt=""/>
 
                         </div>
                         <div class="courseDescription">
-                            <li>CMPSC 297: Hands-on Web Development</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 297: Hands-on Web Development</span></li>
                             <p>
                                 Design and implementation of web applications using programming languages, 
                                 such as Python, JavaScript, and SQL, and frameworks like Bootstrap, Flask, 
@@ -84,7 +95,7 @@ export const RelevantCourses = () => {
                             <img src={flaskLogo} class="flask" alt=""/>
                         </div>
                         <div class="courseDescription">
-                            <li>CMPSC 297: Blockchain - Deep Dive</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 297: Blockchain - Deep Dive</span></li>
                             <p>
                                 Blockchain technology and Web3 development. Covers the basics of coding blockchains 
                                 and using smart contracts to create decentralized web applications (dApps). Tools used 
@@ -98,7 +109,7 @@ export const RelevantCourses = () => {
                             <img src={solidityLogo} class="solidity" alt=""/>
                         </div>
                         <div class="courseDescription">
-                            <li>CMPSC 221: Object Oriented Programming with Web-Based Applications</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 221: Object Oriented Programming with Web-Based Applications</span></li>
                             <p>
                                 Object-oriented principles and their application to web-based net-centric computing. 
                                 Topics include virtual machines, intermediate code generation, GUI design, event handling, 
@@ -109,14 +120,13 @@ export const RelevantCourses = () => {
                             <img src={netbeansLogo} class="logo" alt=""/>
                         </div>
                         <div class="courseDescription">
-                            <li>CMPSC 132: Programming and Computation II: Data Structures</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 132: Programming and Computation II: Data Structures</span></li>
                             <p>
                                 Foundations of programming and computation with data structures (linked lists, stacks, 
                                 queues, trees, graphs), object-oriented programming, the analysis of algorithms, and 
                                 programming techniques like higher-order functions. Taught in Python.
                             </p>
                             <img src={pythonLogo} class="logo" alt=""/>
-                            <img src={atomLogo} class="logo" alt=""/>
                             <img src={vscodeLogo} class="vscode" alt=""/>
                         </div>
                     </ul>
@@ -125,42 +135,42 @@ export const RelevantCourses = () => {
                 <div class="courseContainer">
                     <h2>Computer Engineering Courses</h2>
                     <ul>
-                        <div class="courseDescription">
-                            <li>CMPEN 270: Digital Design: Theory and Practice</li>
-                            <p>
-                                Introduction to digital systems. Presents theoretical foundation for digital systems, 
-                                combinational devices, sequential devices, logic gates, latches, and flip flops.
-                            </p>
-                        </div>
                         {/* <div class="courseDescription">
-                            <li>CMPEN 331: Computer Organization And Design</li>
+                            <li><span style={{textDecoration: 'underline'}}>CMPEN 331: Computer Organization And Design</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Fall 2023)</span></li>
                             <p>
                                 Introduces the major components of a computer system (the data path, the control path, 
                                 the memory system, the I/O system), how they function together in executing a program, 
                                 and how they are designed. Students learn Assembly and Verilog.
                             </p>
                         </div> */}
+                        <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>CMPEN 270: Digital Design: Theory and Practice</span></li>
+                            <p>
+                                Introduction to digital systems. Presents theoretical foundation for digital systems, 
+                                combinational devices, sequential devices, logic gates, latches, and flip flops.
+                            </p>
+                        </div>
                     </ul>
                 </div>
                 {/* Mathematics Courses */}
                 <div class="courseContainer" style={{marginBottom: 50}}>
                     <h2>Mathematics Courses</h2>
                     <ul>
+                        {/* <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>STAT 415: Introduction to Mathematical Statistics</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Fall 2023)</span></li>
+                            <p>
+                                A theoretical treatment of statistical inference, including sufficiency, estimation, testing, 
+                                regression, analysis of variance, and chi-square tests.
+                            </p>
+                        </div> */}
                         <div class="courseDescription">
-                            <li>STAT 414: Introduction to Probability Theory</li>
+                            <li><span style={{textDecoration: 'underline'}}>STAT 414: Introduction to Probability Theory</span></li>
                             <p>
                                 Probability spaces, discrete and continuous random variables, transformations, 
                                 expectations, generating functions, conditional distributions, the law of large numbers, 
                                 and central limit theorems.
                             </p>
                         </div>
-                        {/* <div class="courseDescription">
-                            <li>STAT 415: Introduction to Mathematical Statistics</li>
-                            <p>
-                                A theoretical treatment of statistical inference, including sufficiency, estimation, testing, 
-                                regression, analysis of variance, and chi-square tests.
-                            </p>
-                        </div> */}
                     </ul>
                 </div>
             </div>

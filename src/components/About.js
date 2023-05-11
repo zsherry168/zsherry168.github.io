@@ -3,7 +3,6 @@ import './About.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Footer from './Footer.js';
 import headshot from '../images/headshot.jpg';
 import pythonLogo from '../logos/pythonLogo.png';
 import htmlLogo from '../logos/htmlLogo.png';
@@ -18,6 +17,7 @@ import flaskLogo from '../logos/flaskLogo.png';
 import vscodeLogo from '../logos/vscodeLogo.png';
 import gitLogo from '../logos/gitLogo.png';
 import githubLogo from '../logos/githubLogo.png';
+import Footer from './Footer.js';
 
 export const About = () => {
 
@@ -45,7 +45,7 @@ export const About = () => {
                                 <div class="box" style={{backgroundColor: 'rgb(214, 228, 236)'}}>
                                     <h2>Introduction</h2>
                                     <p>
-                                        My name is Sherry, and I am a second-year student at Penn State University studying 
+                                        My name is Sherry, and I am a rising third-year student at Penn State University studying 
                                         Computer Science and minoring in Mathematics. Some interests that I am exploring 
                                         include full-stack development and artificial intelligence, specifically machine 
                                         learning. Tools I have under my belt include Python, C, Java, JavaScript, HTML, CSS, 

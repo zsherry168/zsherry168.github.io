@@ -1,5 +1,5 @@
 import React from 'react';
-import resumepdf from '../SherryZhangResume.pdf';
+import resumepdf from '../Sherry_Zhang_Resume.pdf';
 import './Resume.css';
 import Footer from './Footer.js';
 
