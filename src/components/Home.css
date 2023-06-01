@@ -1,5 +1,6 @@
 body {
   font-family: 'IBM Plex Sans';
+  background-color: rgb(246, 243, 243);
 }
 
 h1 {
@@ -11,22 +12,16 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(7, 69, 98);
-  margin-top: 15px;
-  margin-bottom: 20px;
 }
 
 .picture {
   width: 300px;
-  border: 0.25px solid #ececec;
-  border-radius: 50%;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: -5px;
+  margin-bottom: 20px;
   padding: 5px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
   z-index: 999; 
-  cursor: pointer; 
   -webkit-transition-property: all; 
   -webkit-transition-duration: 0.3s; 
   -webkit-transition-timing-function: ease; 
@@ -35,6 +30,50 @@ h2 {
 .picture:hover { 
   transform: scale(1.10); 
   }
+
+.box {
+  text-align: center;
+  width: 85%;
+  background-color: rgb(227, 227, 227);
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15)
+}
+
+.skills {
+  margin-top: 25px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.specialEffect {
+  color: hsl(0, 0%, 28%);
+  font-family: 'IBM Plex Sans';
+  letter-spacing: 5px!important;
+  text-transform: uppercase;
+}
+
+.specialEffect {
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 1.7s;

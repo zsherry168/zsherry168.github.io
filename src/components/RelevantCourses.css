@@ -2,23 +2,27 @@ body {
   font-family: 'IBM Plex Sans';
 }
 
+p {
+  color: rgb(59, 74, 81);
+}
+
 h1 {
   text-align: center;
-  color: rgb(7, 55, 78);
+  color: rgb(59, 74, 81);
   margin-top: 40px;
   margin-bottom: 0px;
 }
 
 h2 {
   font-size: 30px;
-  color: rgb(7, 69, 98);
+  color: rgb(59, 74, 81);
   margin-top: 10px;
   margin-bottom: 15px;
 }
 
 li {
   font-size: 18px;
-  color: rgb(7, 69, 98);
+  color: rgb(59, 74, 81);
 }
 
 .courseContainer {
@@ -52,7 +56,7 @@ li {
 }
 
 .django, .flask {
-  height: 33px;
+  height: 35px;
   border-radius: 8px;
 }
 

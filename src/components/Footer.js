@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer () {
     return (
-        <div class="container-fluid" style={{background: "rgb(234, 242, 246)"}}>
+        <div class="container-fluid" style={{background: "rgb(207, 209, 210)"}}>
             <div class="info">
                 <h5 class="contact">Contact Me</h5>
                 <p>
