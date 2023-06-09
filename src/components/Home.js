@@ -22,7 +22,6 @@ export const Home = () => {
         <>
             <div class="container largerBox animate__animated animate__fadeIn">
                 <h1 class="specialEffect">Sherry Zhang</h1>
-                <h2>Aspiring Software Engineer</h2>
                 <img src={headshot} class="picture" alt=""/>
                 <center>
                     <div class="box">
@@ -36,12 +35,12 @@ export const Home = () => {
                             GitHub Pages. (The website you're viewing right now!) Topics that 
                             I am interested in include full-stack development, cloud computing, 
                             and big data. Regarding my technical skillset, I am knowledgeable 
-                            in Python, C, JavaScript, HTML, CSS, Java, Bootstrap, React, Flask, 
+                            in Python, C, C++, JavaScript, HTML, CSS, Bootstrap, Flask, React, 
                             and Node. 
                         </p>
                     
                         <p style={{marginTop: 20}}>
-                            Outside my career, I like exploring new parts of the city, hiking, 
+                            During my free time, I like exploring new parts of the city, hiking, 
                             and dining downtown with friends. I also enjoy watching Star Wars, 
                             Pirates of the Caribbean, and Rick and Morty. Back in high school, 
                             I used to play the violin too. I have over 11 years of experience 
