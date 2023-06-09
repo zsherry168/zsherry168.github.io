@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.010c4c00.css",
-    "main.js": "/static/js/main.eb610df6.js",
+    "main.css": "/static/css/main.7915ae96.css",
+    "main.js": "/static/js/main.4a52bb21.js",
     "static/js/787.97c5b73f.chunk.js": "/static/js/787.97c5b73f.chunk.js",
     "static/media/headshot.png": "/static/media/headshot.7ae5d8856522a4d81ae1.png",
     "static/media/oldwebsite.png": "/static/media/oldwebsite.02cc0c6de5adff2701dc.png",
@@ -19,7 +19,7 @@
     "static/media/htmlLogo.png": "/static/media/htmlLogo.f3aa7827cd5160f3fc1c.png",
     "static/media/cppLogo.png": "/static/media/cppLogo.fc461cc8303a38559c80.png",
     "static/media/pycharmLogo.png": "/static/media/pycharmLogo.32b15c2f9472994fa271.png",
-    "static/media/Sherry_Zhang_Resume.pdf": "/static/media/Sherry_Zhang_Resume.719bbfc04ad8bf89d76a.pdf",
+    "static/media/Sherry_Zhang_Resume.pdf": "/static/media/Sherry_Zhang_Resume.626918b7fa86006137c1.pdf",
     "static/media/javascriptLogo.png": "/static/media/javascriptLogo.76536eb2b86398277df3.png",
     "static/media/cssLogo.png": "/static/media/cssLogo.1334cb45a7d5ad096543.png",
     "static/media/solidityLogo.png": "/static/media/solidityLogo.5910fb9cfeb3befef844.png",
@@ -31,12 +31,12 @@
     "static/media/djangoLogo.png": "/static/media/djangoLogo.1561b91d7b75f3ca2814.png",
     "static/media/rbootstrapLogo.png": "/static/media/rbootstrapLogo.efdec1327625a824a51e.png",
     "index.html": "/index.html",
-    "main.010c4c00.css.map": "/static/css/main.010c4c00.css.map",
-    "main.eb610df6.js.map": "/static/js/main.eb610df6.js.map",
+    "main.7915ae96.css.map": "/static/css/main.7915ae96.css.map",
+    "main.4a52bb21.js.map": "/static/js/main.4a52bb21.js.map",
     "787.97c5b73f.chunk.js.map": "/static/js/787.97c5b73f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.010c4c00.css",
-    "static/js/main.eb610df6.js"
+    "static/css/main.7915ae96.css",
+    "static/js/main.4a52bb21.js"
   ]
 }
