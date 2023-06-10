@@ -6,7 +6,7 @@ import htmlLogo from '../logos/htmlLogo.png';
 import cssLogo from '../logos/cssLogo.png';
 import javascriptLogo from '../logos/javascriptLogo.png';
 import cLogo from '../logos/cLogo.png';
-import javaLogo from '../logos/javaLogo.png';
+import cppLogo from '../logos/cppLogo.png';
 import bootstrapLogo from '../logos/bootstrapLogo.png';
 import reactLogo from '../logos/reactLogo.png';
 import nodeLogo from '../logos/nodeLogo.png';
@@ -57,7 +57,7 @@ export const Home = () => {
                             <h6 class="label">Languages</h6>
                             <img src={pythonLogo} alt="" class="logo"/>
                             <img src={cLogo} alt="" class="logo"/>
-                            <img src={javaLogo} alt="" class="java"/>
+                            <img src={cppLogo} alt="" class="cpp"/>
                             <img src={htmlLogo} alt="" class="logo"/>
                             <img src={cssLogo} alt="" class="logo"/>
                             <img src={javascriptLogo} alt="" class="javascript"/>
@@ -65,8 +65,8 @@ export const Home = () => {
                         <div class="skills">
                             <h6 class="label">Frameworks & Libraries</h6>
                             <img src={bootstrapLogo} alt="" class="logo"/>
-                            <img src={reactLogo} alt="" class="logo"/>
                             <img src={flaskLogo} alt="" class="flask"/>
+                            <img src={reactLogo} alt="" class="logo"/>
                             <img src={nodeLogo} alt="" class="logo"/>
                         </div>
                         <div class="skills">

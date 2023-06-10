@@ -34,6 +34,7 @@ li {
 .courseDescription {
   margin-bottom: 15px;
 }
+
 .logo, .c, .github, .javascript, .sql, .bootstrap, .django, .flask, .solidity, .java, .vscode, .cpp {
   height: 40px;
   text-align: center;
@@ -43,6 +44,7 @@ li {
 .c {
   height: 43px;
 }
+
 .github, .vscode {
   height: 37px;
 }
@@ -66,7 +68,7 @@ li {
 }
 
 .cpp {
-  height: 37px;
+  height: 35px;
 }
 
 .animate__animated.animate__fadeIn {
