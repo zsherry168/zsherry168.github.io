@@ -15,6 +15,7 @@ import vscodeLogo from '../logos/vscodeLogo.png';
 import gitLogo from '../logos/gitLogo.png';
 import githubLogo from '../logos/githubLogo.png';
 import pycharmLogo from '../logos/pycharmLogo.png';
+import xcodeLogo from '../logos/xcodeLogo.png';
 import Footer from './Footer.js';
 
 export const Home = () => {
@@ -71,10 +72,11 @@ export const Home = () => {
                         </div>
                         <div class="skills">
                             <h6 class="label">Tools</h6>
-                            <img src={vscodeLogo} alt="" class="logo"/>
-                            <img src={pycharmLogo} alt="" class="logo"/>
                             <img src={gitLogo} alt="" class="logo"/>
                             <img src={githubLogo} alt="" class="github"/>
+                            <img src={vscodeLogo} alt="" class="logo"/>
+                            <img src={pycharmLogo} alt="" class="logo"/>
+                            <img src={xcodeLogo} alt="" class="logo"/>
                         </div>
                     </div>
                 </center>
