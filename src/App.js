@@ -15,7 +15,7 @@ import icon from './sherry.png';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/zsherry168.github.io">
     <div className="App">
       <>
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
