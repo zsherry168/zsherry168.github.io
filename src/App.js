@@ -1,7 +1,7 @@
 import './App.css';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import {
-  BrowserRouter,
+  Router,
   Routes,
   Route,
   Link
@@ -15,7 +15,7 @@ import icon from './sherry.png';
 
 function App() {
   return (
-    <BrowserRouter basename="/zsherry168.github.io">
+    <Router basename="/zsherry168.github.io">
     <div className="App">
       <>
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
@@ -50,7 +50,7 @@ function App() {
         </Routes>
       </div>
     </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
