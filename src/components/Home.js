@@ -35,7 +35,7 @@ export const Home = () => {
                             after I built and deployed my first-ever website using React and 
                             GitHub Pages. (The website you're viewing right now!) Topics that 
                             I am interested in include full-stack development, cloud computing, 
-                            and big data. Regarding my technical skillset, I am knowledgeable 
+                            and machine learning. Regarding my technical skillset, I am knowledgeable 
                             in Python, C, C++, JavaScript, HTML, CSS, Bootstrap, Flask, React, 
                             and Node. 
                         </p>
