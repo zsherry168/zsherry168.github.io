@@ -35,14 +35,14 @@ li {
   margin-bottom: 15px;
 }
 
-.logo, .c, .github, .javascript, .sql, .bootstrap, .django, .flask, .solidity, .java, .vscode, .cpp {
+.logo, .c, .github, .javascript, .sql, .bootstrap, .django, .flask, .solidity, .java, .vscode, .cpp, .r {
   height: 40px;
   text-align: center;
   margin-right: 12px;
 }
 
 .c {
-  height: 43px;
+  height: 45px;
 }
 
 .github, .vscode {
@@ -68,7 +68,13 @@ li {
 }
 
 .cpp {
-  height: 35px;
+  height: 38px;
+}
+
+.r {
+  height: 50px;
+  margin-top: -8px;
+  margin-bottom: -5px;
 }
 
 .animate__animated.animate__fadeIn {

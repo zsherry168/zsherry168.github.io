@@ -7,6 +7,7 @@ import cssLogo from '../logos/cssLogo.png';
 import javascriptLogo from '../logos/javascriptLogo.png';
 import cLogo from '../logos/cLogo.png';
 import cppLogo from '../logos/cppLogo.png';
+import javaLogo from '../logos/javaLogo.png';
 import bootstrapLogo from '../logos/bootstrapLogo.png';
 import reactLogo from '../logos/reactLogo.png';
 import nodeLogo from '../logos/nodeLogo.png';
@@ -36,7 +37,7 @@ export const Home = () => {
                             GitHub Pages. (The website you're viewing right now!) Topics that 
                             I am interested in include full-stack development, cloud computing, 
                             and machine learning. Regarding my technical skillset, I am knowledgeable 
-                            in Python, C, C++, JavaScript, HTML, CSS, Bootstrap, Flask, React, 
+                            in Python, C, C++, Java, JavaScript, HTML, CSS, Bootstrap, Flask, React, 
                             and Node. 
                         </p>
                     
@@ -59,6 +60,7 @@ export const Home = () => {
                             <img src={pythonLogo} alt="" class="logo"/>
                             <img src={cLogo} alt="" class="logo"/>
                             <img src={cppLogo} alt="" class="cpp"/>
+                            <img src={javaLogo} alt="" class="java"/>
                             <img src={htmlLogo} alt="" class="logo"/>
                             <img src={cssLogo} alt="" class="logo"/>
                             <img src={javascriptLogo} alt="" class="javascript"/>

@@ -19,7 +19,7 @@ import solidityLogo from '../logos/solidityLogo.png';
 import javaLogo from '../logos/javaLogo.png';
 import netbeansLogo from '../logos/netbeansLogo.png';
 import vscodeLogo from '../logos/vscodeLogo.png';
-import cppLogo from '../logos/cppLogo.png';
+import rLogo from '../logos/rLogo.png';
 import Footer from './Footer.js';
 
 
@@ -31,37 +31,25 @@ export const RelevantCourses = () => {
                 <p>
                     Below is a list of relevant computer science, computer engineering, 
                     and mathematics courses I have taken or am currently taking at Penn State. 
-                    I also have a community college course I am taking at West Valley College 
-                    this summer listed below too.
                 </p>
                 {/* Computer Science Courses */}
                 <div class="courseContainer">
                     <h2>Computer Science Courses</h2>
                     <ul>
-                        {/* <div class="courseDescription">
-                            <li><span style={{textDecoration: 'underline'}}>CMPSC 461: Programming Language Concepts</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Fall 2023)</span></li>
-                            <p>
-                                Fundamental concepts of programming language design, specifications, 
-                                and implementation; programming language paradigms and features; 
-                                program verification.
-                            </p>
-                        </div> */}
-                        <div class="courseDescription">
-                            <li><span style={{textDecoration: 'underline'}}>CIST 004A: Computer Programming I: C++ Programming</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Summer 2023 @ West Valley College)</span></li>
-                            <p>
-                                Concepts and methodologies of C++ programming, including object-oriented 
-                                design, decomposition, encapsulation, abstraction, and testing. Topics 
-                                include memory allocation, flow control, logic, objects, classes, methods 
-                                and argument passing, control structures, and iteration.
-                            </p>
-                            <img src={cppLogo} class="cpp" alt=""/>
-                        </div>
                         <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>CMPSC 465: Data Structures and Algorithms</span></li>
                             <p>
                                 Fundamental concepts of computer science: data structures, 
                                 analysis of algorithms, recursion, trees, sets, graphs, and 
                                 sorting.
+                            </p>
+                        </div>
+                        <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 461: Programming Language Concepts</span></li>
+                            <p>
+                                Basic principles of programming language design, specifications, 
+                                and implementation; programming language paradigms and features; 
+                                program verification.
                             </p>
                         </div>
                         <div class="courseDescription">
@@ -80,9 +68,8 @@ export const RelevantCourses = () => {
                         <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>CMPSC 297: Hands-on Web Development</span></li>
                             <p>
-                                Design and implementation of web applications using programming languages, 
-                                such as Python, JavaScript, and SQL, and frameworks like Bootstrap, Flask, 
-                                and Django. Topics include database design, scalability, security, UI/UX, and APIs.
+                                Design and implementation of web applications. Topics include database 
+                                design, scalability, security, UI/UX, and APIs.
                             </p>
                             <img src={pythonLogo} class="logo" alt=""/>
                             <img src={htmlLogo} class="logo" alt=""/>
@@ -98,8 +85,7 @@ export const RelevantCourses = () => {
                             <li><span style={{textDecoration: 'underline'}}>CMPSC 297: Blockchain - Deep Dive</span></li>
                             <p>
                                 Blockchain technology and Web3 development. Covers the basics of coding blockchains 
-                                and using smart contracts to create decentralized web applications (dApps). Tools used 
-                                include JavaScript, React, Express, Node, and Solidity.
+                                and using smart contracts to create decentralized web applications (dApps).
                             </p>
                             <img src={htmlLogo} class="logo" alt=""/>
                             <img src={cssLogo} class="logo" alt=""/>
@@ -113,7 +99,7 @@ export const RelevantCourses = () => {
                             <p>
                                 Object-oriented principles and their application to web-based net-centric computing. 
                                 Topics include virtual machines, intermediate code generation, GUI design, event handling, 
-                                and server-side programming with database queries. Languages used include Java and SQL.
+                                and server-side programming with database queries.
                             </p>
                             <img src={javaLogo} class="java" alt=""/>
                             <img src={sqlLogo} class="sql" alt=""/>
@@ -124,10 +110,11 @@ export const RelevantCourses = () => {
                             <p>
                                 Foundations of programming and computation with data structures (linked lists, stacks, 
                                 queues, trees, graphs), object-oriented programming, the analysis of algorithms, and 
-                                programming techniques like higher-order functions. Taught in Python.
+                                programming techniques like higher-order functions.
                             </p>
                             <img src={pythonLogo} class="logo" alt=""/>
                             <img src={vscodeLogo} class="vscode" alt=""/>
+                            <p><span style={{color: 'rgb(19, 169, 19)'}}>* Starting in Fall 2023, I am a teaching assistant for this course!</span></p>
                         </div>
                     </ul>
                 </div>
@@ -135,14 +122,14 @@ export const RelevantCourses = () => {
                 <div class="courseContainer">
                     <h2>Computer Engineering Courses</h2>
                     <ul>
-                        {/* <div class="courseDescription">
-                            <li><span style={{textDecoration: 'underline'}}>CMPEN 331: Computer Organization And Design</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Fall 2023)</span></li>
+                        <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>CMPEN 331: Computer Organization And Design</span></li>
                             <p>
                                 Introduces the major components of a computer system (the data path, the control path, 
                                 the memory system, the I/O system), how they function together in executing a program, 
                                 and how they are designed. Students learn Assembly and Verilog.
                             </p>
-                        </div> */}
+                        </div>
                         <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>CMPEN 270: Digital Design: Theory and Practice</span></li>
                             <p>
@@ -156,13 +143,14 @@ export const RelevantCourses = () => {
                 <div class="courseContainer" style={{marginBottom: 50}}>
                     <h2>Mathematics Courses</h2>
                     <ul>
-                        {/* <div class="courseDescription">
-                            <li><span style={{textDecoration: 'underline'}}>STAT 415: Introduction to Mathematical Statistics</span><span style={{color: 'rgb(19, 169, 19)'}}>&nbsp; (Fall 2023)</span></li>
+                        <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>STAT 415: Introduction to Mathematical Statistics</span></li>
                             <p>
                                 A theoretical treatment of statistical inference, including sufficiency, estimation, testing, 
                                 regression, analysis of variance, and chi-square tests.
                             </p>
-                        </div> */}
+                            <img src={rLogo} class="r" alt=""/>
+                        </div>
                         <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>STAT 414: Introduction to Probability Theory</span></li>
                             <p>
