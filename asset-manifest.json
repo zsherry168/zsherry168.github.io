@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9a1dee0.css",
-    "main.js": "/static/js/main.4383a789.js",
+    "main.css": "/static/css/main.5a5ca3c2.css",
+    "main.js": "/static/js/main.9b34473c.js",
     "static/js/787.97c5b73f.chunk.js": "/static/js/787.97c5b73f.chunk.js",
     "static/media/headshot.png": "/static/media/headshot.7ae5d8856522a4d81ae1.png",
     "static/media/oldwebsite.png": "/static/media/oldwebsite.02cc0c6de5adff2701dc.png",
@@ -17,14 +17,15 @@
     "static/media/xcodeLogo.png": "/static/media/xcodeLogo.36d516cc993feb45e0b3.png",
     "static/media/netbeansLogo.png": "/static/media/netbeansLogo.ab8746b27554bb4253f9.png",
     "static/media/bootstrapLogo.png": "/static/media/bootstrapLogo.cb0fcc269e8250f3551b.png",
+    "static/media/rLogo.png": "/static/media/rLogo.ae93a8fdcb9bf598d2ef.png",
     "static/media/htmlLogo.png": "/static/media/htmlLogo.f3aa7827cd5160f3fc1c.png",
     "static/media/cppLogo.png": "/static/media/cppLogo.fc461cc8303a38559c80.png",
     "static/media/pycharmLogo.png": "/static/media/pycharmLogo.32b15c2f9472994fa271.png",
     "static/media/javascriptLogo.png": "/static/media/javascriptLogo.76536eb2b86398277df3.png",
     "static/media/cssLogo.png": "/static/media/cssLogo.1334cb45a7d5ad096543.png",
     "static/media/solidityLogo.png": "/static/media/solidityLogo.5910fb9cfeb3befef844.png",
-    "static/media/Sherry_Zhang_Resume.pdf": "/static/media/Sherry_Zhang_Resume.37264a8e1c88d85da36b.pdf",
     "static/media/socketioLogo.png": "/static/media/socketioLogo.9ea2abef91c7aeab3aed.png",
+    "static/media/Sherry_Zhang_Resume.pdf": "/static/media/Sherry_Zhang_Resume.c22d2bb3401daec72054.pdf",
     "static/media/sqlLogo.png": "/static/media/sqlLogo.8c53f46599d600c84b79.png",
     "static/media/cLogo.png": "/static/media/cLogo.83dfa097dfa94f707a41.png",
     "static/media/gitLogo.png": "/static/media/gitLogo.dfdd0989ffe0184bdd68.png",
@@ -32,12 +33,12 @@
     "static/media/djangoLogo.png": "/static/media/djangoLogo.1561b91d7b75f3ca2814.png",
     "static/media/rbootstrapLogo.png": "/static/media/rbootstrapLogo.efdec1327625a824a51e.png",
     "index.html": "/index.html",
-    "main.c9a1dee0.css.map": "/static/css/main.c9a1dee0.css.map",
-    "main.4383a789.js.map": "/static/js/main.4383a789.js.map",
+    "main.5a5ca3c2.css.map": "/static/css/main.5a5ca3c2.css.map",
+    "main.9b34473c.js.map": "/static/js/main.9b34473c.js.map",
     "787.97c5b73f.chunk.js.map": "/static/js/787.97c5b73f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9a1dee0.css",
-    "static/js/main.4383a789.js"
+    "static/css/main.5a5ca3c2.css",
+    "static/js/main.9b34473c.js"
   ]
 }
