@@ -48,6 +48,35 @@ export const Home = () => {
                         </center>
                     </div>
                 </center>
+                <center>    
+                    <div class="box">
+                        <h2>Skills &#128736;</h2>
+                        <div class="skills">
+                            <h6 class="label">Languages</h6>
+                            <img src={pythonLogo} alt="" class="logo"/>
+                            <img src={cLogo} alt="" class="logo"/>
+                            <img src={cppLogo} alt="" class="cpp"/>
+                            <img src={htmlLogo} alt="" class="logo"/>
+                            <img src={cssLogo} alt="" class="logo"/>
+                            <img src={javascriptLogo} alt="" class="javascript"/>
+                        </div>
+                        <div class="skills">
+                            <h6 class="label">Frameworks & Libraries</h6>
+                            <img src={bootstrapLogo} alt="" class="logo"/>
+                            <img src={flaskLogo} alt="" class="flask"/>
+                            <img src={reactLogo} alt="" class="logo"/>
+                            <img src={nodeLogo} alt="" class="logo"/>
+                        </div>
+                        <div class="skills">
+                            <h6 class="label">Tools</h6>
+                            <img src={gitLogo} alt="" class="logo"/>
+                            <img src={githubLogo} alt="" class="github"/>
+                            <img src={vscodeLogo} alt="" class="logo"/>
+                            <img src={pycharmLogo} alt="" class="logo"/>
+                            <img src={xcodeLogo} alt="" class="logo"/>
+                        </div>
+                    </div>
+                </center>
                 <center>
                     <div class="box">
                         <h2>Experience &#128188;</h2>
@@ -106,15 +135,15 @@ export const Home = () => {
                             </div>
                         </center>
                         <p>------- &#x2022; &#x2022; &#x2022; -------</p>
-                        <h3>Mentor | <i>Penn State Women in Engineering Program</i></h3>
+                        <h3>Peer Tutor | <i>IEEE Eta Kappa Nu</i></h3>
                         <h4>University Park, PA</h4>
-                        <h4>Mar 2023 - Present</h4>
+                        <h4>Sep 2023 - Present</h4>
                         <center>
                             <div class="position_description">
                                 <p>
-                                    As a mentor for the Women in Engineering Program (WEP), I advise and support 
-                                    a group of ten female-identifying engineering students in EECS, guiding them on 
-                                    academic and career-related matters. My team this year is Team G.
+                                    For service hours, I tutor weekly in computer science and computer engineering for 
+                                    IEEE Eta Kappa Nu. I guide other students through their assignments and help them understand 
+                                    core concepts in their courses.
                                 </p>
                             </div>
                         </center>
@@ -131,37 +160,32 @@ export const Home = () => {
                                 </p>
                             </div>
                         </center>
-
-
-                    </div>
-                </center>
-                <center>    
-                    <div class="box">
-                        <h2>Skills &#128736;</h2>
-                        <div class="skills">
-                            <h6 class="label">Languages</h6>
-                            <img src={pythonLogo} alt="" class="logo"/>
-                            <img src={cLogo} alt="" class="logo"/>
-                            <img src={cppLogo} alt="" class="cpp"/>
-                            <img src={htmlLogo} alt="" class="logo"/>
-                            <img src={cssLogo} alt="" class="logo"/>
-                            <img src={javascriptLogo} alt="" class="javascript"/>
-                        </div>
-                        <div class="skills">
-                            <h6 class="label">Frameworks & Libraries</h6>
-                            <img src={bootstrapLogo} alt="" class="logo"/>
-                            <img src={flaskLogo} alt="" class="flask"/>
-                            <img src={reactLogo} alt="" class="logo"/>
-                            <img src={nodeLogo} alt="" class="logo"/>
-                        </div>
-                        <div class="skills">
-                            <h6 class="label">Tools</h6>
-                            <img src={gitLogo} alt="" class="logo"/>
-                            <img src={githubLogo} alt="" class="github"/>
-                            <img src={vscodeLogo} alt="" class="logo"/>
-                            <img src={pycharmLogo} alt="" class="logo"/>
-                            <img src={xcodeLogo} alt="" class="logo"/>
-                        </div>
+                        <p>------- &#x2022; &#x2022; &#x2022; -------</p>
+                        <h3>Mentor | <i>Penn State Women in Engineering Program</i></h3>
+                        <h4>University Park, PA</h4>
+                        <h4>Mar 2023 - Present</h4>
+                        <center>
+                            <div class="position_description">
+                                <p>
+                                    As a mentor for the Women in Engineering Program (WEP), I advise and support 
+                                    a group of ten female engineering students in EECS, guiding them on 
+                                    academic and career-related matters. My team this year is called Team G.
+                                </p>
+                            </div>
+                        </center>
+                        <p>------- &#x2022; &#x2022; &#x2022; -------</p>
+                        <h3>Study Group Facilitator | <i>Penn State Women in Engineering Program</i></h3>
+                        <h4>University Park, PA</h4>
+                        <h4>Aug 2023 - Dec 2023</h4>
+                        <center>
+                            <div class="position_description">
+                                <p>
+                                    I designed and led 12 study group sessions for CMPSC 131, Penn State's introductory 
+                                    Python course, to reinforce programming concepts. I also provided students with coding 
+                                    exercises and note slides.
+                                </p>
+                            </div>
+                        </center>
                     </div>
                 </center>
             </div>
