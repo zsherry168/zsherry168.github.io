@@ -52,8 +52,8 @@ export const Home = () => {
                     <div class="box">
                         <h2>Experience &#128188;</h2>
                         <h3>Incoming Software Engineering Intern | <i>Prudential Financial</i></h3>
-                        <h4>Summer 2024</h4>
                         <h4>Newark, NJ</h4>
+                        <h4>Summer 2024</h4>
                         <center>
                             <div class="position_description">
                                 <p>
@@ -64,8 +64,8 @@ export const Home = () => {
                         </center>
                         <p>------- &#x2022; &#x2022; &#x2022; -------</p>
                         <h3>Teaching Assistant | <i>Penn State Computer Science and Engineering</i></h3>
-                        <h4>Jun 2023 - Present</h4>
                         <h4>University Park, PA</h4>
+                        <h4>Jun 2023 - Present</h4>
                         <center>
                             <div class="position_description">
                                 <p>
@@ -78,8 +78,8 @@ export const Home = () => {
                         </center>
                         <p>------- &#x2022; &#x2022; &#x2022; -------</p>
                         <h3>Grader | <i>Penn State Computer Science and Engineering</i></h3>
-                        <h4>Jan 2023 - Aug 2023</h4>
                         <h4>University Park, PA</h4>
+                        <h4>Jan 2023 - Aug 2023</h4>
                         <center>
                             <div class="position_description">
                                 <p>
@@ -95,8 +95,8 @@ export const Home = () => {
                     <div class="box">
                         <h2>Involvement &#x1f5e3;</h2>
                         <h3>Instructor | <i>Girls Who Code</i></h3>
-                        <h4>Feb 2024</h4>
                         <h4>University Park, PA</h4>
+                        <h4>Feb 2024</h4>
                         <center>
                             <div class="position_description">
                                 <p>
@@ -107,8 +107,8 @@ export const Home = () => {
                         </center>
                         <p>------- &#x2022; &#x2022; &#x2022; -------</p>
                         <h3>Mentor | <i>Penn State Women in Engineering Program</i></h3>
-                        <h4>Mar 2023 - Present</h4>
                         <h4>University Park, PA</h4>
+                        <h4>Mar 2023 - Present</h4>
                         <center>
                             <div class="position_description">
                                 <p>
@@ -120,8 +120,8 @@ export const Home = () => {
                         </center>
                         <p>------- &#x2022; &#x2022; &#x2022; -------</p>
                         <h3>Community Outreach Coordinator | <i>IEEE Eta Kappa Nu</i></h3>
-                        <h4>Apr 2023 - Present</h4>
                         <h4>University Park, PA</h4>
+                        <h4>Apr 2023 - Present</h4>
                         <center>
                             <div class="position_description">
                                 <p>
