@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9787250.css",
-    "main.js": "/static/js/main.33fb4a38.js",
+    "main.css": "/static/css/main.85ead9a3.css",
+    "main.js": "/static/js/main.cd6b6dab.js",
     "static/js/787.bfdd8c79.chunk.js": "/static/js/787.bfdd8c79.chunk.js",
+    "static/media/fungi.jpg": "/static/media/fungi.5decd8dcbbffb83fb336.jpg",
     "static/media/headshot.png": "/static/media/headshot.7ae5d8856522a4d81ae1.png",
-    "static/media/oldwebsite.png": "/static/media/oldwebsite.02cc0c6de5adff2701dc.png",
+    "static/media/mtnittany.jpg": "/static/media/mtnittany.17b578c7f39d735a12e0.jpg",
+    "static/media/hanalei.jpg": "/static/media/hanalei.dc122cfa4398f3a80741.jpg",
+    "static/media/bleedingheart.jpg": "/static/media/bleedingheart.649a7e48f8ee53ef555c.jpg",
+    "static/media/broomball.jpg": "/static/media/broomball.6c4eaa07faff750ed392.jpg",
     "static/media/nittanyreads.png": "/static/media/nittanyreads.77f3c301f5d945e1e418.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.becbab0ab5d2271d2831.png",
+    "static/media/gdbLogo.png": "/static/media/gdbLogo.76e1684403ed6f7e3d21.png",
     "static/media/sherry.png": "/static/media/sherry.e583667a0e4248db84f6.png",
     "static/media/postgreSQLLogo.png": "/static/media/postgreSQLLogo.1b904635aedb7c19150d.png",
     "static/media/pythonLogo.png": "/static/media/pythonLogo.82efb64f8698a267f8bf.png",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.b79d9a382fd8984cff12.png",
+    "static/media/MATLABLogo.png": "/static/media/MATLABLogo.201137840e6e89a5dbbb.png",
     "static/media/vscodeLogo.png": "/static/media/vscodeLogo.e66400756ccbdbfc0b31.png",
     "static/media/javaLogo.png": "/static/media/javaLogo.35397b59170cfd616fee.png",
     "static/media/flaskLogo.png": "/static/media/flaskLogo.932320f6a302fa4fc94e.png",
@@ -25,7 +31,6 @@
     "static/media/cssLogo.png": "/static/media/cssLogo.1334cb45a7d5ad096543.png",
     "static/media/solidityLogo.png": "/static/media/solidityLogo.5910fb9cfeb3befef844.png",
     "static/media/socketioLogo.png": "/static/media/socketioLogo.9ea2abef91c7aeab3aed.png",
-    "static/media/Sherry_Zhang_Resume.pdf": "/static/media/Sherry_Zhang_Resume.c22d2bb3401daec72054.pdf",
     "static/media/sqlLogo.png": "/static/media/sqlLogo.8c53f46599d600c84b79.png",
     "static/media/cLogo.png": "/static/media/cLogo.83dfa097dfa94f707a41.png",
     "static/media/gitLogo.png": "/static/media/gitLogo.dfdd0989ffe0184bdd68.png",
@@ -33,12 +38,12 @@
     "static/media/djangoLogo.png": "/static/media/djangoLogo.1561b91d7b75f3ca2814.png",
     "static/media/rbootstrapLogo.png": "/static/media/rbootstrapLogo.efdec1327625a824a51e.png",
     "index.html": "/index.html",
-    "main.d9787250.css.map": "/static/css/main.d9787250.css.map",
-    "main.33fb4a38.js.map": "/static/js/main.33fb4a38.js.map",
+    "main.85ead9a3.css.map": "/static/css/main.85ead9a3.css.map",
+    "main.cd6b6dab.js.map": "/static/js/main.cd6b6dab.js.map",
     "787.bfdd8c79.chunk.js.map": "/static/js/787.bfdd8c79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9787250.css",
-    "static/js/main.33fb4a38.js"
+    "static/css/main.85ead9a3.css",
+    "static/js/main.cd6b6dab.js"
   ]
 }
