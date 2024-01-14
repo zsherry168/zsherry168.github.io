@@ -16,7 +16,6 @@ import socketioLogo from '../logos/socketioLogo.png';
 import reactLogo from '../logos/reactLogo.png';
 import rbootstrapLogo from '../logos/rbootstrapLogo.png';
 import nittanyreads from '../images/nittanyreads.png';
-import oldwebsite from '../images/oldwebsite.png';
 import Footer from './Footer.js';
 
 export const Projects = () => {
@@ -118,9 +117,6 @@ export const Projects = () => {
 											<p>&#8226; Use web sockets to enable communication between web clients and servers</p>
 											<p>&#8226; Employ JavaScript to output messags from other users in the channels</p>
 											<p>&#8226; Save chats using cookies instead of using a database</p>
-										</div>
-										<div class="section">
-											<h5>Preview</h5>
 										</div>		
 									</div>
 							</Accordion.Body>
@@ -188,9 +184,7 @@ export const Projects = () => {
 												web development services; however, I never yielded any successful results. It wasn't 
 												until I self-taught myself the basics of HTML and CSS did I finally create my first website. 
 												Once completed, I eagerly launched my website on GitHub Pages but told myself I could do better. 
-												In turn, I rebuilt my website (the one you see today) using React and React Bootstrap and 
-												replaced the old website. While I work on other projects, I hope to continue improving this website 
-												and further developing my skills in web development. 
+												In turn, I rebuilt my website using React and React Bootstrap and replaced the old website.
 											</p>
 										</div>
 										<div class="section">
@@ -215,12 +209,7 @@ export const Projects = () => {
 											<p>&#8226; Leverage reusable components instead of rewriting and repeating code</p>
 											<p>&#8226; Deploy a React application on GitHub Pages</p>
 											<p>&#8226; Utilize the Bootstrap library to handle responsiveness to user environment</p>
-										</div>
-										<div class="section">
-											<h5>Preview</h5>
-											<p>* Below is an image of my old website, which is very similar to my current one.</p>
-											<img src={oldwebsite} alt="" class="d-block w-75" style={{borderRadius: 10}}/>
-										</div>		
+										</div>	
 									</div>
 							</Accordion.Body>
 						</Accordion.Item>

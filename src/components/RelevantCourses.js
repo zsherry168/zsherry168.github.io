@@ -20,6 +20,8 @@ import javaLogo from '../logos/javaLogo.png';
 import netbeansLogo from '../logos/netbeansLogo.png';
 import vscodeLogo from '../logos/vscodeLogo.png';
 import rLogo from '../logos/rLogo.png';
+import matlabLogo from '../logos/MATLABLogo.png';
+import gdbLogo from '../logos/gdbLogo.png';
 import Footer from './Footer.js';
 
 
@@ -37,11 +39,22 @@ export const RelevantCourses = () => {
                     <h2>Computer Science Courses</h2>
                     <ul>
                         <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>CMPSC 473: Operating Systems Design & Construction</span></li>
+                            <p>
+                                Design and implementation of computer operating systems. Management 
+                                of various system resources: processes, memory, processors, files, 
+                                input/output devices
+                            </p>
+                            <img src={cLogo} class="c" alt=""/>
+                            <img src={linuxLogo} class="logo" alt=""/>
+                            <img src={gdbLogo} class="logo" alt=""/>
+                        </div>
+                        <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>CMPSC 465: Data Structures and Algorithms</span></li>
                             <p>
                                 Fundamental concepts of computer science: data structures, 
                                 analysis of algorithms, recursion, trees, sets, graphs, and 
-                                sorting.
+                                sorting
                             </p>
                         </div>
                         <div class="courseDescription">
@@ -49,7 +62,7 @@ export const RelevantCourses = () => {
                             <p>
                                 Basic principles of programming language design, specifications, 
                                 and implementation; programming language paradigms and features; 
-                                program verification.
+                                program verification
                             </p>
                         </div>
                         <div class="courseDescription">
@@ -57,7 +70,7 @@ export const RelevantCourses = () => {
                             <p>
                                 Development of software components and methods: system programming 
                                 in C, organization of programs and data, program analysis and support 
-                                tools, software standards, and common system functions.
+                                tools, software standards, and common system functions
                             </p>
                             <img src={cLogo} class="c" alt=""/>
                             <img src={linuxLogo} class="logo" alt=""/>
@@ -69,7 +82,7 @@ export const RelevantCourses = () => {
                             <li><span style={{textDecoration: 'underline'}}>CMPSC 297: Hands-on Web Development</span></li>
                             <p>
                                 Design and implementation of web applications. Topics include database 
-                                design, scalability, security, UI/UX, and APIs.
+                                design, scalability, security, UI/UX, and APIs
                             </p>
                             <img src={pythonLogo} class="logo" alt=""/>
                             <img src={htmlLogo} class="logo" alt=""/>
@@ -85,7 +98,7 @@ export const RelevantCourses = () => {
                             <li><span style={{textDecoration: 'underline'}}>CMPSC 297: Blockchain - Deep Dive</span></li>
                             <p>
                                 Blockchain technology and Web3 development. Covers the basics of coding blockchains 
-                                and using smart contracts to create decentralized web applications (dApps).
+                                and using smart contracts to create decentralized web applications (dApps)
                             </p>
                             <img src={htmlLogo} class="logo" alt=""/>
                             <img src={cssLogo} class="logo" alt=""/>
@@ -99,7 +112,7 @@ export const RelevantCourses = () => {
                             <p>
                                 Object-oriented principles and their application to web-based net-centric computing. 
                                 Topics include virtual machines, intermediate code generation, GUI design, event handling, 
-                                and server-side programming with database queries.
+                                and server-side programming with database queries
                             </p>
                             <img src={javaLogo} class="java" alt=""/>
                             <img src={sqlLogo} class="sql" alt=""/>
@@ -110,11 +123,10 @@ export const RelevantCourses = () => {
                             <p>
                                 Foundations of programming and computation with data structures (linked lists, stacks, 
                                 queues, trees, graphs), object-oriented programming, the analysis of algorithms, and 
-                                programming techniques like higher-order functions.
+                                programming techniques like higher-order functions
                             </p>
                             <img src={pythonLogo} class="logo" alt=""/>
                             <img src={vscodeLogo} class="vscode" alt=""/>
-                            <p><span style={{color: 'rgb(19, 169, 19)'}}>* Starting in Fall 2023, I am a teaching assistant for this course!</span></p>
                         </div>
                     </ul>
                 </div>
@@ -123,18 +135,26 @@ export const RelevantCourses = () => {
                     <h2>Computer Engineering Courses</h2>
                     <ul>
                         <div class="courseDescription">
+                            <li><span style={{textDecoration: 'underline'}}>CMPEN 454: Fundamentals of Computer Vision</span></li>
+                            <p>
+                                Image formation, segmentation, feature extraction, matching, shape recovery, object 
+                                recognition, and dynamic scene analysis
+                            </p>
+                            <img src={matlabLogo} class="matlab" alt=""/>
+                        </div>
+                        <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>CMPEN 331: Computer Organization And Design</span></li>
                             <p>
                                 Introduces the major components of a computer system (the data path, the control path, 
                                 the memory system, the I/O system), how they function together in executing a program, 
-                                and how they are designed. Students learn Assembly and Verilog.
+                                and how they are designed. Students learn Assembly and Verilog
                             </p>
                         </div>
                         <div class="courseDescription">
                             <li><span style={{textDecoration: 'underline'}}>CMPEN 270: Digital Design: Theory and Practice</span></li>
                             <p>
                                 Introduction to digital systems. Presents theoretical foundation for digital systems, 
-                                combinational devices, sequential devices, logic gates, latches, and flip flops.
+                                combinational devices, sequential devices, logic gates, latches, and flip flops
                             </p>
                         </div>
                     </ul>
@@ -147,7 +167,7 @@ export const RelevantCourses = () => {
                             <li><span style={{textDecoration: 'underline'}}>STAT 415: Introduction to Mathematical Statistics</span></li>
                             <p>
                                 A theoretical treatment of statistical inference, including sufficiency, estimation, testing, 
-                                regression, analysis of variance, and chi-square tests.
+                                regression, analysis of variance, and chi-square tests
                             </p>
                             <img src={rLogo} class="r" alt=""/>
                         </div>
@@ -156,7 +176,7 @@ export const RelevantCourses = () => {
                             <p>
                                 Probability spaces, discrete and continuous random variables, transformations, 
                                 expectations, generating functions, conditional distributions, the law of large numbers, 
-                                and central limit theorems.
+                                and central limit theorems
                             </p>
                         </div>
                     </ul>

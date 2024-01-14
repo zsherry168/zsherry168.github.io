@@ -1,0 +1,14 @@
+.img {
+    max-width: 60%;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.img_box {
+    max-width: 60%;
+    height: auto;
+    width: auto;
+
+}

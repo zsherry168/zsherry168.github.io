@@ -7,10 +7,9 @@ import {
   Link
 } from 'react-router-dom';
 import { Home } from './components/Home';
-// import { Experience } from './components/Experience';
-import { Resume } from './components/Resume';
 import { Projects } from './components/Projects';
 import { RelevantCourses } from './components/RelevantCourses';
+import { Fun } from './components/Fun';
 import icon from './sherry.png';
 
 function App() {
@@ -30,11 +29,10 @@ function App() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
               <Nav.Link as={Link} to="/">About</Nav.Link>
-              {/* <Nav.Link as={Link} to="/experience">Experience</Nav.Link> */}
-              <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
               <Nav.Link href="https://github.com/zsherry168" target="_blank">GitHub</Nav.Link>
               <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
               <Nav.Link as={Link} to="/relevantcourses" className="justify-content-end">Relevant Courses</Nav.Link>
+              <Nav.Link as={Link} to="/fun">Fun Stuff</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -43,10 +41,9 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          {/* <Route path="/experience" element={<Experience/>}/> */}
-          <Route path="/resume" element={<Resume/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/relevantcourses" element={<RelevantCourses/>}/>
+          <Route path="/fun" element={<Fun/>}/>
         </Routes>
       </div>
     </div>
