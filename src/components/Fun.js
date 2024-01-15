@@ -18,7 +18,8 @@ export const Fun = () => {
                 <center>
                     <div class="img_box">
                         <p>
-                            October 2023 - Hiking Mount Nittany with other Team G mentors
+                            October 2023 - Hiking Mount Nittany with other Team G mentors. The background 
+                            features a view of Penn State's campus
                         </p>
                     </div>
                 </center>
@@ -52,9 +53,8 @@ export const Fun = () => {
                 <center>
                     <div class="img_box">
                         <p>
-                            September 2021 - The giant conk fungus I discovered outside my dorm for my fungi class 
-                            scavenger hunt. Because of the rain, Pennsylvania has a vast array of cool mushrooms and 
-                            fungi in the wild
+                            September 2021 - The giant conk fungus I discovered for my fungi class scavenger hunt. 
+                            Because of the rain, Pennsylvania has so many cool mushrooms and fungi in the wild
                         </p>
                     </div>
                 </center>
