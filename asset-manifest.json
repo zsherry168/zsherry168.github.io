@@ -1,13 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.85ead9a3.css",
-    "main.js": "/static/js/main.455fc868.js",
+    "main.js": "/static/js/main.8b04cafd.js",
     "static/js/787.bfdd8c79.chunk.js": "/static/js/787.bfdd8c79.chunk.js",
-    "static/media/fungi.jpg": "/static/media/fungi.5decd8dcbbffb83fb336.jpg",
     "static/media/portrait.png": "/static/media/portrait.b239e2d4cac13eaa795d.png",
     "static/media/mtnittany.jpg": "/static/media/mtnittany.17b578c7f39d735a12e0.jpg",
-    "static/media/hanalei.jpg": "/static/media/hanalei.dc122cfa4398f3a80741.jpg",
-    "static/media/bleedingheart.jpg": "/static/media/bleedingheart.649a7e48f8ee53ef555c.jpg",
     "static/media/broomball.jpg": "/static/media/broomball.6c4eaa07faff750ed392.jpg",
     "static/media/nittanyreads.png": "/static/media/nittanyreads.77f3c301f5d945e1e418.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.becbab0ab5d2271d2831.png",
@@ -39,11 +36,11 @@
     "static/media/rbootstrapLogo.png": "/static/media/rbootstrapLogo.efdec1327625a824a51e.png",
     "index.html": "/index.html",
     "main.85ead9a3.css.map": "/static/css/main.85ead9a3.css.map",
-    "main.455fc868.js.map": "/static/js/main.455fc868.js.map",
+    "main.8b04cafd.js.map": "/static/js/main.8b04cafd.js.map",
     "787.bfdd8c79.chunk.js.map": "/static/js/787.bfdd8c79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85ead9a3.css",
-    "static/js/main.455fc868.js"
+    "static/js/main.8b04cafd.js"
   ]
 }
