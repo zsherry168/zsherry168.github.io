@@ -33,14 +33,14 @@ export const Home = () => {
                                     My name is Sherry, and I am a junior from San Jose, CA, studying Computer Science and minoring in 
                                     Mathematics at the Pennsylvania State University. My interests lie in application development and fintech. 
                                     Alongside, I am passionate about STEM outreach and education as well as women empowerment in computer 
-                                    science. I am also a teaching assistant for an introductory data structures and Python programming 
+                                    science. I am also a teaching assistant for a data structures and Python programming 
                                     course at my university.
                                 </p>
                             </div>   
                             <div class="about_description">
                                 <p style={{marginTop: 20}}>
                                     In my free time, I enjoy hiking, traveling, teaching, and learning about world history. I also like 
-                                    Star Wars, Formula 1, and cosmetics. Furthermore, I used to play the violin and have over 12 years of 
+                                    Star Wars, Formula 1, and music. Furthermore, I used to play the violin and have over 12 years of 
                                     experience with the instrument. I even had the opportunity in Argentina to perform with my orchestra in 
                                     Teatro Colón, one of the most prestigious opera houses in the world. 
                                 </p>
