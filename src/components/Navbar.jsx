@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="border-b border-gray-200/60">
       <div className="container mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-        <a href="/" className="text-xl font-bold">SZ</a>
+        <a href="/" className="text-xl font-bold">Sherry Zhang</a>
         <nav className="flex items-center gap-2">
           <NavLink to="/" className={link} end>Home</NavLink>
           <NavLink to="/about" className={link}>About</NavLink>
