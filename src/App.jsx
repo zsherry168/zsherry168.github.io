@@ -7,6 +7,9 @@ import Experience from "./pages/Experience.jsx";
 import Blog from "./pages/Blog.jsx";
 import Contact from "./pages/Contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+
 
 export default function App() {
   return (
