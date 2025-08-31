@@ -1,23 +1,24 @@
-import { NavLink } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import "../App.css";
 
-const link = ({ isActive }) =>
-  "px-3 py-2 rounded hover:bg-gray-100" +
-  (isActive ? "font-semibold underline" : "text-gray-600");
-
-export default function Navbar() {
+export default function NavBar() {
   return (
-    <header className="border-b border-gray-200/60">
-      <div className="container mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
-        <a href="/" className="text-xl font-bold">Sherry Zhang</a>
-        <nav className="flex items-center gap-2">
-          <NavLink to="/" className={link} end>Home</NavLink>
-          <NavLink to="/about" className={link}>About</NavLink>
-          <NavLink to="/experience" className={link}>Experience</NavLink>
-					<NavLink to="/projects" className={link}>Projects</NavLink>
-          <NavLink to="/blog" className={link}>Blog</NavLink>
-          <NavLink to="/contact" className={link}>Contact</NavLink>
-        </nav>
-      </div>
-    </header>
+    <Navbar fixed="top" expand="lg" className="bg-body-tertiary bg-white py-3">
+      <Container fluid>
+        <Navbar.Brand href="/" className="ms-4">SZ</Navbar.Brand>
+        <Navbar.Toggle aria-controls="primary-nav" />
+        <Navbar.Collapse id="primary-nav">
+          <Nav className="ms-auto align-items-center gap-4 me-4">
+            <Nav.Link href="/" className="text-black">Home</Nav.Link>
+            <Nav.Link href="/about" className="text-black">About</Nav.Link>
+            <Nav.Link href="/experience" className="text-black">Experience</Nav.Link>
+            <Nav.Link href="/projects" className="text-black">Projects</Nav.Link>
+            <Nav.Link href="/blog" className="text-black">Blog</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
