@@ -1,5 +1,6 @@
 body {
   font-family: 'Times New Roman';
+	background-color: #ffffff;
 }
 
 /* NavBar */
@@ -9,4 +10,11 @@ body {
 .navbar-nav .nav-link {
   font-size: 14px;
   font-weight: 400;
+}
+
+/* make footer links smaller and tight, like your Figma */
+.footer .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
 }
