@@ -3,8 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Inter', sans-serif !important;
+:root {
+  --bs-body-bg: #ffffff;
+  --bs-tertiary-bg: #ffffff;
+  --bs-body-color: #000000;
 }
 
-html, body, #root { height: 100%; }
+html, body, #root {
+  background-color: #ffffff !important;
+  color: #000;
+}
+
+.bg-body-tertiary {
+  background-color: #ffffff !important;
+}
+

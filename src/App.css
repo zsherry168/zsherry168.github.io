@@ -1,9 +1,4 @@
-body {
-  font-family: 'Times New Roman';
-	background-color: #ffffff;
-}
-
-/* NavBar */
+/* Navbar */
 .navbar.bg-body-tertiary {
   background-color: #fff !important;
 }
@@ -12,7 +7,7 @@ body {
   font-weight: 400;
 }
 
-/* make footer links smaller and tight, like your Figma */
+/* Footer */
 .footer .nav-link {
   font-size: 14px;
   font-weight: 500;

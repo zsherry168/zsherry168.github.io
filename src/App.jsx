@@ -5,11 +5,8 @@ import About from "./pages/About.jsx";
 import Projects from "./pages/Projects.jsx";
 import Experience from "./pages/Experience.jsx";
 import Blog from "./pages/Blog.jsx";
-import Contact from "./pages/Contact.jsx";
-import NotFound from "./pages/NotFound.jsx";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
 
 export default function App() {
   return (
@@ -20,8 +17,6 @@ export default function App() {
         <Route path="projects" element={<Projects />} />
         <Route path="experience" element={<Experience />} />
         <Route path="blog" element={<Blog />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
