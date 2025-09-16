@@ -13,3 +13,36 @@
   font-weight: 500;
   color: #000;
 }
+
+/* Experience page cards */
+.xp-item .accordion-button {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem !important;
+  padding: 0.75rem 1rem;
+}
+.xp-item .accordion-button:not(.collapsed) {
+  background-color: #eef1f4;
+  box-shadow: none;
+}
+.xp-item .accordion-body {
+  background-color: #fff;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Logo circle / image in headers */
+.xp-logo {
+  width: 44px;
+  height: 44px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  background: #1c2530;
+}
+.xp-logo-img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+}
