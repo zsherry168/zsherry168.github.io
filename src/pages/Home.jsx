@@ -1,6 +1,7 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import PrimaryButton from "../components/PrimaryButton.jsx";
 import heroPortrait from "../images/sherry_hero_portrait.png";
 import projectCover from "../images/project_placeholder.jpg";
 
@@ -54,14 +55,7 @@ export default function Home() {
             </p>
 
             <div className="d-flex align-items-center gap-3">
-              <Button
-                variant="dark"
-                size="lg"
-                className="px-4"
-                href="/about"
-              >
-                About Me
-              </Button>
+              <PrimaryButton href="/about">About Me</PrimaryButton>
 
               <a
                 href="https://www.linkedin.com/in/your-handle"
@@ -91,7 +85,7 @@ export default function Home() {
         </Row>
 
         {/* Divider */}
-        <hr className="my-4" />
+        <hr className="my-5" />
 
         {/* FEATURED PROJECTS */}
         <section>
