@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import blogCover from "../images/blog_placeholder.png";
+import blogCover from "../assets/blog_placeholder.jpg";
 
 const blogs = [
   {

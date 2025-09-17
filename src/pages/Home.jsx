@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import projects from "../data/projects.js";
 import PrimaryButton from "../components/PrimaryButton.jsx";
-import heroPortrait from "../images/sherry_hero_portrait.png";
+import heroPortrait from "../assets/sherry_hero.png";
 
 export default function Home() {
   return (
