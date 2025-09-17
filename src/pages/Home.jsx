@@ -1,38 +1,14 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import projects from "../data/projects.js";
 import PrimaryButton from "../components/PrimaryButton.jsx";
-import heroPortrait from "../images/sherry_hero_portrait.png";
-import projectCover from "../images/project_placeholder.jpg";
-
-const projects = [
-  {
-    id: 1,
-    title: "Project 1",
-    desc: "Description of project",
-    img: projectCover,
-    link: "/projects/project-1"
-  },
-  {
-    id: 2,
-    title: "Project 2",
-    desc: "Description of project",
-    img: projectCover,
-    link: "/projects/project-2"
-  },
-  {
-    id: 3,
-    title: "Project 3",
-    desc: "Description of project",
-    img: projectCover,
-    link: "/projects/project-3"
-  }
-];
+import heroPortrait from "../assets/sherry_hero.png";
 
 export default function Home() {
   return (
     <>
-      <Container className="py-4" style={{ backgroundColor: "#fff", marginTop: "90px"}}>
+      <Container className="py-4" style={{ marginTop: "50px"}}>
         {/* HERO */}
         <Row className="align-items-start gy-4">
           <Col xs={12} md={5} lg={4}>

@@ -1,6 +1,6 @@
 import { Container, Row, Col, Accordion, Badge } from "react-bootstrap";
 import { SiFigma, SiAdobephotoshop, SiAdobelightroom } from "react-icons/si";
-import aboutHero from "../images/sherry_eecs.jpg";
+import aboutHero from "../assets/sherry_eecs.jpg";
 
 export default function About() {
   return (

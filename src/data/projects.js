@@ -1,10 +1,27 @@
-export const projects = [
+import projectCover from "../assets/project_placeholder.jpg";
+
+const projects = [
   {
-    title: "Portfolio Website",
-    summary: "Vite + React + Tailwind v3, dark mode, GH Pages.",
-    tech: ["React", "Tailwind", "Vite"],
-    links: { demo: "#", code: "#" },
-    highlights: ["Responsive layout", "Theme toggle", "SPA routing"]
+    id: 1,
+    title: "Project 1",
+    desc: "Description of project",
+    img: projectCover,
+    link: "/projects/project-1",
   },
-  // add 3–6 real projects
-];
+  {
+    id: 2,
+    title: "Project 2",
+    desc: "Description of project",
+    img: projectCover,
+    link: "/projects/project-2",
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    desc: "Description of project",
+    img: projectCover,
+    link: "/projects/project-3",
+  }
+]
+
+export default projects;

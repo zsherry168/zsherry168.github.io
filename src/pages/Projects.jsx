@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import projectCover from "../images/project_placeholder.jpg";
+import projectCover from "../assets/project_placeholder.jpg";
 
 const projects = [
   {
