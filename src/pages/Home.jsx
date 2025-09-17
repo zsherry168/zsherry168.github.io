@@ -4,6 +4,9 @@ import { MdEmail } from "react-icons/md";
 import projects from "../data/projects.js";
 import PrimaryButton from "../components/PrimaryButton.jsx";
 import heroPortrait from "../assets/sherry_hero.png";
+import linkedinLogo from "../assets/linkedin_logo.png";
+import githubLogo from "../assets/github_logo.png";
+import emailLogo from "../assets/email_logo.png";
 
 export default function Home() {
   return (
@@ -34,13 +37,19 @@ export default function Home() {
               <PrimaryButton href="/about">About Me</PrimaryButton>
 
               <a
-                href="https://www.linkedin.com/in/your-handle"
+                href="https://www.linkedin.com/in/zsherry168/"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-dark"
               >
-                <FaLinkedin size={24} />
+                <img
+                  src={linkedinLogo}
+                  alt="LinkedIn"
+                  width={29}
+                  height={29}
+                  style={{ display: "block" }}
+                />
               </a>
 
               <a
@@ -50,11 +59,23 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-dark"
               >
-                <FaGithub size={24} />
+                <img
+                  src={githubLogo}
+                  alt="GitHub"
+                  width={30}
+                  height={30}
+                  style={{ display: "block" }}
+                />
               </a>
 
-              <a href="mailto:you@email.com" aria-label="Email" className="icon-circle text-dark">
-                <MdEmail size={20} />
+              <a href="mailto:sherrybzhang@gmail.com" aria-label="Email" className="icon-circle text-dark">
+                <img
+                  src={emailLogo}
+                  alt="Email"
+                  width={30}
+                  height={30}
+                  style={{ display: "block" }}
+                />
               </a>
             </div>
           </Col>
