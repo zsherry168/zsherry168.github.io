@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Button } from "react-bootstrap";
 
 /**
@@ -27,3 +28,9 @@ export default function PrimaryButton({ children, href, onClick}) {
 		</Button>
 	);
 }
+
+PrimaryButton.propTypes = {
+	children: PropTypes.node.isRequired,
+	href: PropTypes.string,
+	onClick: PropTypes.func,
+};
