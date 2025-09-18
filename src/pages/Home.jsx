@@ -1,5 +1,6 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import projects from "../data/projects.js";
+import heroData from "../data/heroData.js";
 import PrimaryButton from "../components/PrimaryButton.jsx";
 import ContentCard from "../components/ContentCard.jsx";
 import heroPortrait from "../assets/sherry_hero.png";
@@ -22,14 +23,11 @@ export default function Home() {
           </Col>
 
           <Col xs={12} md={7} lg={8}>
-            <h1 className="fw-bold display-5 mb-2">Sherry Zhang</h1>
-            <div className="fs-5 text-body-emphasis mb-3">Software Engineer</div>
+            <h1 className="fw-bold display-5 mb-2">{heroData.name}</h1>
+            <div className="fs-5 text-body-emphasis mb-3">{heroData.title}</div>
 
             <p className="text-secondary mb-4" style={{ maxWidth: 680 }}>
-              I’m a Software Engineer in Prudential Financial’s Global Technology
-              Rotational Program, working at the intersection of technology, finance, and
-              business. I’m passionate about building impactful solutions and
-              advocating for STEM education and mentorship.
+              {heroData.blurb}
             </p>
 
             <div className="d-flex align-items-center gap-3">
