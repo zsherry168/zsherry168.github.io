@@ -10,7 +10,7 @@ import emailLogo from "../assets/email_logo.png";
 export default function Home() {
   return (
     <>
-      <Container className="py-4" style={{ marginTop: "50px"}}>
+      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "25px"}}>
         {/* HERO */}
         <Row className="align-items-start gy-4">
           <Col xs={12} md={5} lg={4}>
@@ -81,7 +81,7 @@ export default function Home() {
         </Row>
 
         {/* Divider */}
-        <hr className="my-5" />
+        <hr style={{ marginTop: "45px", marginBottom: "35px"}}/>
 
         {/* FEATURED PROJECTS */}
         <section>
