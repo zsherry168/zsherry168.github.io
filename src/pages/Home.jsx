@@ -1,8 +1,7 @@
-import { Container, Row, Col, Button, Card } from "react-bootstrap";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import projects from "../data/projects.js";
 import PrimaryButton from "../components/PrimaryButton.jsx";
+import ContentCard from "../components/ContentCard.jsx";
 import heroPortrait from "../assets/sherry_hero.png";
 import linkedinLogo from "../assets/linkedin_logo.png";
 import githubLogo from "../assets/github_logo.png";
@@ -91,16 +90,12 @@ export default function Home() {
           <Row className="g-4">
             {projects.map((p) => (
               <Col key={p.id} xs={12} md={6} lg={4}>
-                <Card className="h-100 shadow-sm">
-                  <Card.Img variant="top" src={p.img} alt={`${p.title} cover`} />
-                  <Card.Body>
-                    <Card.Title href={p.link}>{p.title}</Card.Title>
-                    <Card.Text className="text-secondary">{p.desc}</Card.Text>
-                    <Button variant="outline-dark" href={p.link}>
-                      View Project
-                    </Button>
-                  </Card.Body>
-                </Card>
+                <ContentCard
+                  title={p.title}
+                  desc={p.desc}
+                  img={p.img}
+                  link={p.link}
+                />
               </Col>
             ))}
           </Row>
