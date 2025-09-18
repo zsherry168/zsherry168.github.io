@@ -1,11 +1,25 @@
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../App.css";
 
 export default function NavBar() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 16);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <Navbar fixed="top" expand="lg" className="bg-body-tertiary bg-white py-3">
+    <Navbar
+      fixed="top"
+      expand="lg"
+      className={`py-3 ${scrolled ? "navbar-glass" : "navbar-solid"}`}
+    >
       <Container fluid>
         <Navbar.Brand href="/" className="ms-4">SZ</Navbar.Brand>
         <Navbar.Toggle aria-controls="primary-nav" />
