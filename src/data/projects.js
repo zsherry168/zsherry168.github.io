@@ -4,23 +4,23 @@ const projects = [
   {
     id: 1,
     title: "Project 1",
-    desc: "Description of project",
+    desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.",
     img: projectCover,
-    link: "/projects/project-1",
+    link: "/projects",
   },
   {
     id: 2,
     title: "Project 2",
-    desc: "Description of project",
+    desc: "In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
     img: projectCover,
-    link: "/projects/project-2",
+    link: "/projects",
   },
   {
     id: 3,
     title: "Project 3",
-    desc: "Description of project",
+    desc: "Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc.",
     img: projectCover,
-    link: "/projects/project-3",
+    link: "/projects",
   }
 ]
 
