@@ -1,18 +1,24 @@
 import { Container, Row, Col } from "react-bootstrap";
-import projects from "../data/projects.js";
-import heroData from "../data/heroData.js";
 import PrimaryButton from "../components/PrimaryButton.jsx";
 import ContentCard from "../components/ContentCard.jsx";
+import projects from "../data/projects.js";
+import heroData from "../data/heroData.js";
 import heroPortrait from "../assets/sherry_hero.png";
 import linkedinLogo from "../assets/linkedin_logo.png";
 import githubLogo from "../assets/github_logo.png";
 import emailLogo from "../assets/email_logo.png";
 
+const contacts = {
+  linkedin: "https://www.linkedin.com/in/zsherry168/",
+  github: "https://github.com/zsherry168",
+  email: "mailto:sherrybzhang@gmail.com"
+};
+
 export default function Home() {
   return (
     <>
-      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "25px"}}>
-        {/* HERO */}
+      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px"}}>
+        {/* Hero */}
         <Row className="align-items-start gy-4">
           <Col xs={12} md={5} lg={4}>
             <img
@@ -21,24 +27,20 @@ export default function Home() {
               className="img-fluid rounded-1 shadow-sm"
             />
           </Col>
-
           <Col xs={12} md={7} lg={8}>
             <h1 className="fw-bold display-5 mb-2">{heroData.name}</h1>
             <div className="fs-5 text-body-emphasis mb-3">{heroData.title}</div>
-
             <p className="text-secondary mb-4" style={{ maxWidth: 680 }}>
               {heroData.blurb}
             </p>
 
             <div className="d-flex align-items-center gap-3">
               <PrimaryButton href="/about">About Me</PrimaryButton>
-
               <a
-                href="https://www.linkedin.com/in/zsherry168/"
+                href={contacts.linkedin}
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-dark"
               >
                 <img
                   src={linkedinLogo}
@@ -48,13 +50,11 @@ export default function Home() {
                   style={{ display: "block" }}
                 />
               </a>
-
               <a
-                href="https://github.com/zsherry168"
+                href={contacts.github}
                 aria-label="GitHub"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-dark"
               >
                 <img
                   src={githubLogo}
@@ -64,8 +64,7 @@ export default function Home() {
                   style={{ display: "block" }}
                 />
               </a>
-
-              <a href="mailto:sherrybzhang@gmail.com" aria-label="Email" className="icon-circle text-dark">
+              <a href={contacts.email} aria-label="Email">
                 <img
                   src={emailLogo}
                   alt="Email"
@@ -81,10 +80,9 @@ export default function Home() {
         {/* Divider */}
         <hr style={{ marginTop: "45px", marginBottom: "35px"}}/>
 
-        {/* FEATURED PROJECTS */}
+        {/* Featured Projects */}
         <section>
           <h2 className="fw-bold mb-3">Featured Projects</h2>
-
           <Row className="g-4">
             {projects.map((p) => (
               <Col key={p.id} xs={12} md={6} lg={4}>
