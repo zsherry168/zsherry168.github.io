@@ -1,5 +1,9 @@
 import { Container, Accordion } from "react-bootstrap";
-
+import pruLogo from "../assets/prudential_logo.png";
+import psuLogo from "../assets/psu_logo.png";
+import awsLogo from "../assets/aws_logo.png";
+import hknLogo from "../assets/hkn_logo.png";
+import gwcLogo from "../assets/gwc_logo.png";
 /** ---------- Data ---------- */
 // Put logos in public/images or import them; use null for a text badge.
 const professional = [
@@ -8,7 +12,7 @@ const professional = [
     org: "Prudential Financial",
     location: "Newark, NJ",
     dates: "Jul 2025 – Present",
-    logoText: "PF",
+    logoSrc: pruLogo,
     bullets: [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex sapien vitae pellentesque sem placerat in id.",
       "Pretium tellus duis convallis tempus leo eu aenean. Uma tempor pulvinar vivamus fringilla lacus nec metus.",
@@ -19,7 +23,7 @@ const professional = [
     org: "Prudential Financial",
     location: "Newark, NJ",
     dates: "Jun 2024 – Aug 2024",
-    logoText: "PF",
+    logoSrc: pruLogo,
     bullets: [
       "Semper vel class aptent taciti sociosqu ad litora.",
       "Conubia nostra inceptos himenaeos orci varius natoque penatibus.",
@@ -33,7 +37,7 @@ const academic = [
     org: "Penn State College of Engineering",
     location: "University Park, PA",
     dates: "Oct 2024 – May 2025",
-    logoText: "PSU",
+    logoSrc: psuLogo,
     bullets: [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
       "Quisque faucibus ex sapien vitae pellentesque sem placerat.",
@@ -44,7 +48,7 @@ const academic = [
     org: "Penn State College of Engineering",
     location: "University Park, PA",
     dates: "Jan 2023 – May 2025",
-    logoText: "PSU",
+    logoSrc: psuLogo,
     bullets: [
       "In id cursus mi pretium tellus duis convallis.",
       "Tempus leo eu aenean sed diam urna tempor.",
@@ -58,8 +62,7 @@ const leadership = [
     org: "AWS She Builds Mentorship Program",
     location: "Virtual",
     dates: "Sep 2025 – Present",
-    // logoSrc: "/images/aws.png",
-    logoText: "AWS",
+    logoSrc: awsLogo,
     bullets: ["Pulvinar vivamus fringilla lacus nec metus bibendum egestas."],
   },
   {
@@ -67,7 +70,7 @@ const leadership = [
     org: "Penn State Women in Engineering Program",
     location: "University Park, PA",
     dates: "Mar 2023 – May 2024",
-    logoText: "PSU",
+    logoSrc: psuLogo,
     bullets: ["Iaculis massa nisl malesuada lacinia integer nunc posuere."],
   },
   {
@@ -75,7 +78,7 @@ const leadership = [
     org: "Penn State Women in Engineering Program",
     location: "University Park, PA",
     dates: "Aug 2023 – Dec 2023",
-    logoText: "PSU",
+    logoSrc: psuLogo,
     bullets: ["Ut hendrerit semper vel class aptent taciti sociosqu."],
   },
 ];
@@ -83,10 +86,10 @@ const leadership = [
 const volunteering = [
   {
     title: "Peer Tutor",
-    org: "IEEE-Eta Kappa Nu",
+    org: "IEEE-Eta Kappa Nu Honor Society",
     location: "University Park, PA",
     dates: "Sep 2023 – May 2024",
-    logoText: "HKN",
+    logoSrc: hknLogo,
     bullets: ["Ad litora torquent per conubia nostra inceptos himenaeos."],
   },
   {
@@ -94,7 +97,7 @@ const volunteering = [
     org: "Girls Who Code",
     location: "University Park, PA",
     dates: "Jan 2024 – May 2024",
-    logoText: "GWC",
+    logoSrc: gwcLogo,
     bullets: ["Lorem ipsum dolor sit amet consectetur adipiscing elit."],
   },
 ];
@@ -103,9 +106,8 @@ const volunteering = [
 export default function Experience() {
   return (
     <>
-      <Container style={{ backgroundColor: "#fff", marginTop: "90px" }}>
-        <h1 className="fw-bold display-5 mb-2">Experience</h1>
-
+      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px" }}>
+        <h1 className="fw-bold display-5 mb-4">Experience</h1>
         <Section title="Professional Experience" items={professional} defaultOpen="0" />
         <Section title="Academic Experience" items={academic} className="mt-5" />
         <Section title="Leadership & Involvement" items={leadership} className="mt-5" />
@@ -138,19 +140,21 @@ function ExperienceItem({
   dates,
   bullets = [],
   logoSrc,
-  logoText = "",
 }) {
   return (
     <Accordion.Item eventKey={eventKey} className="mb-2 rounded-2 shadow-sm border-0 xp-item">
       <Accordion.Header>
         <div className="d-flex align-items-start gap-3 w-100">
-          {logoSrc ? (
-            <img src={logoSrc} alt={`${org} logo`} className="xp-logo-img" />
-          ) : (
-            <div className="xp-logo rounded-circle d-inline-flex align-items-center justify-content-center">
-              {logoText}
-            </div>
-          )}
+          <img
+            src={logoSrc}
+            alt={`${org} logo`}
+            style={{
+              width: "45px",
+              height: "45px",
+              objectFit: "contain",// ensures aspect ratio preserved
+              background: "transparent",
+            }}
+          />
           <div className="flex-grow-1">
             <div className="fw-semibold">{title}</div>
             <div className="text-secondary small">
@@ -165,7 +169,7 @@ function ExperienceItem({
         {bullets?.length > 0 && (
           <ul className="mb-0">
             {bullets.map((b, i) => (
-              <li key={i}>&#8226; {b}</li>
+              <li key={i}>{b}</li>
             ))}
           </ul>
         )}
