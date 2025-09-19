@@ -91,6 +91,7 @@ export default function Home() {
                   desc={p.desc}
                   img={p.img}
                   link={p.link}
+                  buttonText="View Project"
                 />
               </Col>
             ))}
