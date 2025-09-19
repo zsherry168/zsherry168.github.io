@@ -12,6 +12,7 @@ export default function Projects() {
             <Col key={p.id} xs={12} md={6} lg={4}>
               <ContentCard
                 title={p.title}
+                date={p.date}
                 desc={p.desc}
                 img={p.img}
                 link={p.link}
