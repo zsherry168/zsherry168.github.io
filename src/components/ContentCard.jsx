@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
 
-export default function ContentCard({ title, desc, img, link }) {
+export default function ContentCard({ title, desc, img, link, buttonText}) {
   return (
     <Card className="h-100 shadow-sm">
       <a href={link || "#"} aria-label={`Open ${title}`}>
@@ -17,7 +17,7 @@ export default function ContentCard({ title, desc, img, link }) {
           </Card.Text>
         )}
         <Button variant="outline-dark" href={link} className="mt-auto align-self-start">
-          View Project
+          {buttonText}
         </Button>
       </Card.Body>
     </Card>
@@ -29,4 +29,5 @@ ContentCard.propTypes = {
   desc: PropTypes.string,
   img: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+	buttonTextL: PropTypes.string.isRequired
 };
