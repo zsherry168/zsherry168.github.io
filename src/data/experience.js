@@ -60,9 +60,17 @@ export const academic = [
 
 export const leadership = [
   {
+    title: "Mentor",
+    org: "Penn State EECS Alumni Mentoring Program",
+    dates: "Sep 2025 - Present",
+    logoSrc: psuLogo,
+    bullets: ["Pulvinar vivamus fringilla lacus nec metus bibendum egestas.",
+      "Gaculis massa nisl malesuada lacinia integer nunc posuere."
+    ],
+  },
+  {
     title: "Mentee",
     org: "AWS She Builds Mentorship Program",
-    location: "Virtual",
     dates: "Sep 2025 – Present",
     logoSrc: awsLogo,
     bullets: ["In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
