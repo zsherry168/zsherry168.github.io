@@ -1,11 +1,12 @@
 import { Container, Row, Col, Accordion, Badge } from "react-bootstrap";
 import { SiFigma, SiAdobephotoshop, SiAdobelightroom } from "react-icons/si";
+import EducationSection from "../components/EducationSection";
 import aboutHero from "../assets/sherry_eecs.jpg";
 
 export default function About() {
   return (
     <>
-      <Container style={{ backgroundColor: "#fff", marginTop: "90px" }}>
+      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px" }}>
         {/* HERO */}
         <Row className="align-items-start gy-4">
           <Col xs={12} md={5} lg={4}>
@@ -37,16 +38,16 @@ export default function About() {
             <h5 className="fw-semibold mb-2">Fun Facts</h5>
             <ul className="mb-0">
               <li>
-                &#8226; Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque 
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque 
                 faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium 
                 tellus duis convallis
               </li>
               <li>
-                &#8226; Tempus leo eu aenean sed diam urna tempor. Ut hendrerit semper vel 
+                Tempus leo eu aenean sed diam urna tempor. Ut hendrerit semper vel 
                 class aptent taciti sociosqu
               </li>
               <li>
-                &#8226; Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus 
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus 
                 ex sapien vitae pellentesque sem placerat
               </li>
             </ul>
@@ -56,52 +57,7 @@ export default function About() {
         <hr className="my-5" />
 
         {/* EDUCATION */}
-        <section className="mb-5">
-          <h2 className="fw-bold mb-3">Education</h2>
-          <Accordion defaultActiveKey="0" alwaysOpen={false}>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>
-                <div className="d-flex align-items-center gap-3">
-                  {/* simple “seal” circle; replace with your image/logo if you prefer */}
-                  <div className="edu-seal rounded-circle d-inline-flex align-items-center justify-content-center">
-                    PSU
-                  </div>
-                  <div>
-                    <div className="fw-semibold">
-                      The Pennsylvania State University
-                    </div>
-                    <div className="text-secondary small">
-                      B.S. in Computer Science · Minor in Mathematics
-                    </div>
-                  </div>
-                </div>
-              </Accordion.Header>
-              <Accordion.Body>
-                <div className="row g-3">
-                  <div className="col-12 col-md-6">
-                    <div className="text-secondary small mb-1">Highlights</div>
-                    <ul className="mb-0">
-                      <li>GPA: 3.82/4.00</li>
-                      <li>Teaching Assistant</li>
-                      <li>Undergraduate Research Assistant</li>
-                    </ul>
-                  </div>
-                  <div className="col-12 col-md-6">
-                    <div className="text-secondary small mb-1">
-                      Relevant Coursework
-                    </div>
-                    <ul className="mb-0">
-                      <li>Machine Learning · Artificial Intelligence</li>
-                      <li>Database Management Systems</li>
-                      <li>Mathematics of Finance · Personal Finance</li>
-                      <li>Basic Patent Process</li>
-                    </ul>
-                  </div>
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </section>
+        <EducationSection></EducationSection>
 
         {/* SKILLS */}
         <section className="mb-4">
