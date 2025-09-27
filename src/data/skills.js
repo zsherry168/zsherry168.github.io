@@ -1,6 +1,6 @@
 import pythonLogo from "../assets/python_logo.png";
 import jsLogo from "../assets/javascript_logo.png";
-import htmlLogo from "../asssets/html_logo.png";
+import htmlLogo from "../assets/html_logo.png";
 import cssLogo from "../assets/css_logo.png";
 import cLogo from "../assets/c_logo.png";
 import javaLogo from "../assets/java_logo.png";
@@ -9,7 +9,7 @@ import sqlLogo from "../assets/sql_logo.png";
 import flaskLogo from "../assets/flask_logo.png";
 import reactLogo from "../assets/react_logo.png";
 import bootstrapLogo from "../assets/bootstrap_logo.png";
-import pandasLogo from "../assets/panda_logo.png";
+import pandasLogo from "../assets/pandas_logo.png";
 import numpyLogo from "../assets/numpy_logo.png";
 import scikitlearnLogo from "../assets/scikit_learn_logo.png";
 import matplotlibLogo from "../assets/matplotlib_logo.png";
