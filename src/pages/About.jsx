@@ -1,6 +1,6 @@
 import { Container, Row, Col, Accordion, Badge } from "react-bootstrap";
-import { SiFigma, SiAdobephotoshop, SiAdobelightroom } from "react-icons/si";
 import EducationSection from "../components/EducationSection";
+import SkillsSection from "../components/SkillSection";
 import aboutHero from "../assets/sherry_eecs.jpg";
 
 export default function About() {
@@ -65,109 +65,8 @@ export default function About() {
         <EducationSection />
 
         {/* SKILLS */}
-        <section className="mb-4">
-          <h2 className="fw-bold mb-3">Skills</h2>
-
-          <Accordion defaultActiveKey={null} alwaysOpen={false}>
-            <Accordion.Item eventKey="0">
-              <Accordion.Header>Languages</Accordion.Header>
-              <Accordion.Body>
-                <SkillRow
-                  items={[
-                    "Python",
-                    "C",
-                    "Java",
-                    "SQL",
-                    "JavaScript",
-                    "HTML",
-                    "CSS",
-                  ]}
-                />
-              </Accordion.Body>
-            </Accordion.Item>
-
-            <Accordion.Item eventKey="1">
-              <Accordion.Header>Frameworks &amp; Libraries</Accordion.Header>
-              <Accordion.Body>
-                <SkillRow
-                  items={[
-                    "React",
-                    "Bootstrap",
-                    "TailwindCSS",
-                    "NumPy",
-                    "Pandas",
-                    "Matplotlib",
-                    "Scikit-learn",
-                  ]}
-                />
-              </Accordion.Body>
-            </Accordion.Item>
-
-            <Accordion.Item eventKey="2">
-              <Accordion.Header>Tools &amp; Platforms</Accordion.Header>
-              <Accordion.Body>
-                <SkillRow
-                  items={["Git", "GitHub", "Vite", "VS Code", "PyCharm"]}
-                />
-              </Accordion.Body>
-            </Accordion.Item>
-
-            <Accordion.Item eventKey="3">
-              <Accordion.Header>Cloud &amp; Infrastructure</Accordion.Header>
-              <Accordion.Body>
-                <SkillRow
-                  items={[
-                    "Genesys Cloud CX",
-                    "Salesforce Service Cloud",
-                    "OmniStudio (Salesforce)",
-                  ]}
-                />
-              </Accordion.Body>
-            </Accordion.Item>
-
-            <Accordion.Item eventKey="4">
-              <Accordion.Header>Design &amp; Collaboration</Accordion.Header>
-              <Accordion.Body>
-                {/* icons + labels as chips */}
-                <div className="d-flex flex-wrap gap-3">
-                  <SkillChip icon={<SiFigma />} label="Figma" />
-                  <SkillChip
-                    icon={<SiAdobephotoshop />}
-                    label="Adobe Photoshop"
-                  />
-                  <SkillChip
-                    icon={<SiAdobelightroom />}
-                    label="Adobe Lightroom"
-                  />
-                </div>
-              </Accordion.Body>
-            </Accordion.Item>
-          </Accordion>
-        </section>
+        <SkillsSection/>
       </Container>
     </>
-  );
-}
-
-/* ---------- small helper components ---------- */
-
-function SkillRow({ items = [] }) {
-  return (
-    <div className="d-flex flex-wrap gap-2">
-      {items.map((t) => (
-        <Badge key={t} bg="light" text="dark" className="border">
-          {t}
-        </Badge>
-      ))}
-    </div>
-  );
-}
-
-function SkillChip({ icon, label }) {
-  return (
-    <div className="skill-chip d-inline-flex align-items-center gap-2 px-3 py-2 rounded-2 border bg-light">
-      <span className="fs-5 d-inline-flex align-items-center">{icon}</span>
-      <span className="fw-medium">{label}</span>
-    </div>
   );
 }
