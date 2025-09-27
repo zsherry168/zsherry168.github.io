@@ -45,7 +45,7 @@ const articles = [
     Tempus leo eu aenean sed diam urna tempor. `,
     img: articleCover,
     link: "/blogs/blog-1",
-  }
+  },
 ];
 
 export default articles;

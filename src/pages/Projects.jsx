@@ -5,7 +5,10 @@ import projects from "../data/projects.js";
 export default function Projects() {
   return (
     <>
-      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px" }}>
+      <Container
+        className="py-4"
+        style={{ marginTop: "80px", marginBottom: "20px" }}
+      >
         <h1 className="fw-bold display-5 mb-4">Projects</h1>
         <Row className="g-4">
           {projects.map((p) => (

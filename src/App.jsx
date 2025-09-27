@@ -5,8 +5,8 @@ import About from "./pages/About.jsx";
 import Projects from "./pages/Projects.jsx";
 import Experience from "./pages/Experience.jsx";
 import Blog from "./pages/Blog.jsx";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 export default function App() {
   return (

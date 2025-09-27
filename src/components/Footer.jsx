@@ -8,11 +8,21 @@ export default function Footer() {
       <Container className="footer mt-[10px] mb-[10px]">
         {/* Row 1: links (stack on small, inline on md+) */}
         <Nav className="gap-3 flex-column flex-md-row align-items-start mb-2">
-          <Nav.Link href="/" className="p-0">Home</Nav.Link>
-          <Nav.Link href="/about" className="p-0">About</Nav.Link>
-          <Nav.Link href="/experience" className="p-0">Experience</Nav.Link>
-          <Nav.Link href="/projects" className="p-0">Projects</Nav.Link>
-          <Nav.Link href="/blog" className="p-0">Blog</Nav.Link>
+          <Nav.Link href="/" className="p-0">
+            Home
+          </Nav.Link>
+          <Nav.Link href="/about" className="p-0">
+            About
+          </Nav.Link>
+          <Nav.Link href="/experience" className="p-0">
+            Experience
+          </Nav.Link>
+          <Nav.Link href="/projects" className="p-0">
+            Projects
+          </Nav.Link>
+          <Nav.Link href="/blog" className="p-0">
+            Blog
+          </Nav.Link>
         </Nav>
 
         {/* Row 2: copyright + icons */}
@@ -37,7 +47,11 @@ export default function Footer() {
             >
               <FaGithub size={18} />
             </a>
-            <a href="sherrybzhang@gmail.com" aria-label="Email" className="icon-circle text-dark">
+            <a
+              href="sherrybzhang@gmail.com"
+              aria-label="Email"
+              className="icon-circle text-dark"
+            >
               <MdEmail size={16} />
             </a>
           </div>

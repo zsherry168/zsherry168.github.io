@@ -7,21 +7,24 @@ export default function ExperienceItem({
   location,
   dates,
   bullets = [],
-  logoSrc
+  logoSrc,
 }) {
   return (
-    <Accordion.Item eventKey={eventKey} className="mb-2 rounded-3 shadow-sm border-0 xp-item">
+    <Accordion.Item
+      eventKey={eventKey}
+      className="mb-2 rounded-3 shadow-sm border-0 xp-item"
+    >
       <Accordion.Header>
         <div className="d-flex align-items-center gap-3 w-100">
           <div
             style={{
               width: 56,
               height: 56,
-              flex: "0 0 56px",           // lock column width so text are all aligned
+              flex: "0 0 56px", // lock column width so text are all aligned
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              background: "transparent"
+              background: "transparent",
             }}
           >
             {/* Logo scales to fix the box */}
@@ -30,25 +33,29 @@ export default function ExperienceItem({
               alt={`${org} logo`}
               width={50}
               height={50}
-              style={{ 
+              style={{
                 maxWidth: "100%",
                 maxHeight: "100%",
-                objectFit: "contain",      // preserve aspect ratio for logos
-                display: "block"
+                objectFit: "contain", // preserve aspect ratio for logos
+                display: "block",
               }}
             />
           </div>
 
           <div className="flex-grow-1">
-            <div className="fw-semibold" style={{ marginBottom: 3 }}>{title}</div>
-            <div className="text-secondary small" style={{ marginBottom: 3 }}>
-              { location ? `${org} | ${location}` : org }
+            <div className="fw-semibold" style={{ marginBottom: 3 }}>
+              {title}
             </div>
-            <div className="text-secondary small"><em>{dates}</em></div>
+            <div className="text-secondary small" style={{ marginBottom: 3 }}>
+              {location ? `${org} | ${location}` : org}
+            </div>
+            <div className="text-secondary small">
+              <em>{dates}</em>
+            </div>
           </div>
         </div>
       </Accordion.Header>
-      
+
       {/* Collapsible body: render bullet points only if present */}
       <Accordion.Body>
         {bullets?.length > 0 && (

@@ -6,7 +6,10 @@ import aboutHero from "../assets/sherry_eecs.jpg";
 export default function About() {
   return (
     <>
-      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px" }}>
+      <Container
+        className="py-4"
+        style={{ marginTop: "80px", marginBottom: "20px" }}
+      >
         {/* HERO */}
         <Row className="align-items-start gy-4">
           <Col xs={12} md={5} lg={4}>
@@ -20,41 +23,43 @@ export default function About() {
           <Col xs={12} md={7} lg={8}>
             <h1 className="fw-bold display-5 mb-2">About</h1>
             <p className="text-secondary mb-4" style={{ maxWidth: 700 }}>
-              Body text for your whole article or post. We’ll put in some lorem ipsum to
-              show how a filled-out page might look: Excepteur efficient emerging, minim
-              veniam anim aute carefully curated. Punctual adipisicing, essential lovely
-              queen tempor eiusmod irure. Impeccable aute quality of life soft power
-              partiatur. Zürich sleepy perfect consectetur.
+              Body text for your whole article or post. We’ll put in some lorem
+              ipsum to show how a filled-out page might look: Excepteur
+              efficient emerging, minim veniam anim aute carefully curated.
+              Punctual adipisicing, essential lovely queen tempor eiusmod irure.
+              Impeccable aute quality of life soft power partiatur. Zürich
+              sleepy perfect consectetur.
             </p>
             <p className="text-secondary mb-4" style={{ maxWidth: 700 }}>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex 
-              sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis 
-              convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla 
-              lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer 
-              nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora 
-              torquent per conubia nostra inceptos himenaeos.
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+              faucibus ex sapien vitae pellentesque sem placerat. In id cursus
+              mi pretium tellus duis convallis. Tempus leo eu aenean sed diam
+              urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
+              egestas. Iaculis massa nisl malesuada lacinia integer nunc
+              posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad
+              litora torquent per conubia nostra inceptos himenaeos.
             </p>
 
             <h5 className="fw-semibold mb-2">Fun Facts</h5>
             <ul className="mb-0">
               <li>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque 
-                faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium 
-                tellus duis convallis
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+                faucibus ex sapien vitae pellentesque sem placerat. In id cursus
+                mi pretium tellus duis convallis
               </li>
               <li>
-                Tempus leo eu aenean sed diam urna tempor. Ut hendrerit semper vel 
-                class aptent taciti sociosqu
+                Tempus leo eu aenean sed diam urna tempor. Ut hendrerit semper
+                vel class aptent taciti sociosqu
               </li>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus 
-                ex sapien vitae pellentesque sem placerat
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
+                faucibus ex sapien vitae pellentesque sem placerat
               </li>
             </ul>
           </Col>
         </Row>
 
-        <hr style={{ marginTop: "45px", marginBottom: "35px"}}/>
+        <hr style={{ marginTop: "45px", marginBottom: "35px" }} />
 
         {/* EDUCATION */}
         <EducationSection />
@@ -67,28 +72,56 @@ export default function About() {
             <Accordion.Item eventKey="0">
               <Accordion.Header>Languages</Accordion.Header>
               <Accordion.Body>
-                <SkillRow items={["Python", "C", "Java", "SQL", "JavaScript", "HTML", "CSS"]} />
+                <SkillRow
+                  items={[
+                    "Python",
+                    "C",
+                    "Java",
+                    "SQL",
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                  ]}
+                />
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="1">
               <Accordion.Header>Frameworks &amp; Libraries</Accordion.Header>
               <Accordion.Body>
-                <SkillRow items={["React", "Bootstrap", "TailwindCSS", "NumPy", "Pandas", "Matplotlib", "Scikit-learn"]} />
+                <SkillRow
+                  items={[
+                    "React",
+                    "Bootstrap",
+                    "TailwindCSS",
+                    "NumPy",
+                    "Pandas",
+                    "Matplotlib",
+                    "Scikit-learn",
+                  ]}
+                />
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="2">
               <Accordion.Header>Tools &amp; Platforms</Accordion.Header>
               <Accordion.Body>
-                <SkillRow items={["Git", "GitHub", "Vite", "VS Code", "PyCharm"]} />
+                <SkillRow
+                  items={["Git", "GitHub", "Vite", "VS Code", "PyCharm"]}
+                />
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="3">
               <Accordion.Header>Cloud &amp; Infrastructure</Accordion.Header>
               <Accordion.Body>
-                <SkillRow items={["Genesys Cloud CX", "Salesforce Service Cloud", "OmniStudio (Salesforce)"]} />
+                <SkillRow
+                  items={[
+                    "Genesys Cloud CX",
+                    "Salesforce Service Cloud",
+                    "OmniStudio (Salesforce)",
+                  ]}
+                />
               </Accordion.Body>
             </Accordion.Item>
 
@@ -98,8 +131,14 @@ export default function About() {
                 {/* icons + labels as chips */}
                 <div className="d-flex flex-wrap gap-3">
                   <SkillChip icon={<SiFigma />} label="Figma" />
-                  <SkillChip icon={<SiAdobephotoshop />} label="Adobe Photoshop" />
-                  <SkillChip icon={<SiAdobelightroom />} label="Adobe Lightroom" />
+                  <SkillChip
+                    icon={<SiAdobephotoshop />}
+                    label="Adobe Photoshop"
+                  />
+                  <SkillChip
+                    icon={<SiAdobelightroom />}
+                    label="Adobe Lightroom"
+                  />
                 </div>
               </Accordion.Body>
             </Accordion.Item>
