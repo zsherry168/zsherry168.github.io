@@ -5,7 +5,10 @@ import articles from "../data/articles.js";
 export default function Blogs() {
   return (
     <>
-      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px" }}>
+      <Container
+        className="py-4"
+        style={{ marginTop: "80px", marginBottom: "20px" }}
+      >
         <h1 className="fw-bold display-5 mb-4">Blogs</h1>
         <Row className="g-4">
           {articles.map((b) => (

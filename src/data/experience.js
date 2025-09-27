@@ -14,7 +14,7 @@ export const professional = [
     bullets: [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex sapien vitae pellentesque sem placerat in id.",
       "Pretium tellus duis convallis tempus leo eu aenean. Uma tempor pulvinar vivamus fringilla lacus nec metus.",
-      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
     ],
   },
   {
@@ -26,7 +26,7 @@ export const professional = [
     bullets: [
       "Semper vel class aptent taciti sociosqu ad litora. Tempus leo eu aenean sed diam urna tempor.",
       "Conubia nostra inceptos himenaeos orci varius natoque penatibus. Ut hendrerit semper vel class aptent taciti sociosqu.",
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. "
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. ",
     ],
   },
 ];
@@ -41,7 +41,7 @@ export const academic = [
     bullets: [
       "Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
       "Quisque faucibus ex sapien vitae pellentesque sem placerat. Quisque faucibus ex sapien vitae pellentesque sem placerat.",
-      "Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas."
+      "Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.",
     ],
   },
   {
@@ -53,7 +53,7 @@ export const academic = [
     bullets: [
       "In id cursus mi pretium tellus duis convallis. Ut hendrerit semper vel class aptent taciti sociosqu.",
       "Tempus leo eu aenean sed diam urna tempor. Ad litora torquent per conubia nostra inceptos himenaeos.",
-      "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis."
+      "Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis.",
     ],
   },
 ];
@@ -64,8 +64,9 @@ export const leadership = [
     org: "Penn State EECS Alumni Mentoring Program",
     dates: "Sep 2025 - Present",
     logoSrc: psuLogo,
-    bullets: ["Pulvinar vivamus fringilla lacus nec metus bibendum egestas.",
-      "Gaculis massa nisl malesuada lacinia integer nunc posuere."
+    bullets: [
+      "Pulvinar vivamus fringilla lacus nec metus bibendum egestas.",
+      "Gaculis massa nisl malesuada lacinia integer nunc posuere.",
     ],
   },
   {
@@ -73,8 +74,9 @@ export const leadership = [
     org: "AWS She Builds Mentorship Program",
     dates: "Sep 2025 – Present",
     logoSrc: awsLogo,
-    bullets: ["In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
-      "Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere."
+    bullets: [
+      "In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
+      "Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere.",
     ],
   },
   {
@@ -83,8 +85,9 @@ export const leadership = [
     location: "University Park, PA",
     dates: "Mar 2023 – May 2024",
     logoSrc: psuLogo,
-    bullets: ["Iaculis massa nisl malesuada lacinia integer nunc posuere. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
-      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+    bullets: [
+      "Iaculis massa nisl malesuada lacinia integer nunc posuere. Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
     ],
   },
   {
@@ -93,8 +96,9 @@ export const leadership = [
     location: "University Park, PA",
     dates: "Aug 2023 – Dec 2023",
     logoSrc: psuLogo,
-    bullets: ["Ut hendrerit semper vel class aptent taciti sociosqu. Iaculis massa nisl malesuada lacinia integer nunc posuere.",
-      "In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor."
+    bullets: [
+      "Ut hendrerit semper vel class aptent taciti sociosqu. Iaculis massa nisl malesuada lacinia integer nunc posuere.",
+      "In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor.",
     ],
   },
 ];
@@ -106,8 +110,9 @@ export const volunteering = [
     location: "University Park, PA",
     dates: "Sep 2023 – May 2024",
     logoSrc: hknLogo,
-    bullets: ["Ad litora torquent per conubia nostra inceptos himenaeos. In id cursus mi pretium tellus duis convallis.",
-      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos."
+    bullets: [
+      "Ad litora torquent per conubia nostra inceptos himenaeos. In id cursus mi pretium tellus duis convallis.",
+      "Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.",
     ],
   },
   {
@@ -116,8 +121,9 @@ export const volunteering = [
     location: "University Park, PA",
     dates: "Jan 2024 – May 2024",
     logoSrc: gwcLogo,
-    bullets: ["Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex sapien vitae pellentesque sem placerat in id.",
-      "Pretium tellus duis convallis tempus leo eu aenean. Urna tempor pulvinar vivamus fringilla lacus nec metus."
+    bullets: [
+      "Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex sapien vitae pellentesque sem placerat in id.",
+      "Pretium tellus duis convallis tempus leo eu aenean. Urna tempor pulvinar vivamus fringilla lacus nec metus.",
     ],
   },
 ];

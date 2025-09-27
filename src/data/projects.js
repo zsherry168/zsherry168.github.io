@@ -8,7 +8,7 @@ const projects = [
     desc: `Lorem ipsum dolor sit amet consectetur adipiscing elit. 
     Quisque faucibus ex sapien vitae pellentesque sem placerat.`,
     img: projectCover,
-    link: "/projects"
+    link: "/projects",
   },
   {
     id: 1,
@@ -17,8 +17,8 @@ const projects = [
     desc: `In id cursus mi pretium tellus duis convallis. 
     Tempus leo eu aenean sed diam urna tempor.`,
     img: projectCover,
-    link: "/projects"
-  }
+    link: "/projects",
+  },
 ];
 
 export default projects;

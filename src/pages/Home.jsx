@@ -11,13 +11,16 @@ import emailLogo from "../assets/email_logo.png";
 const contacts = {
   linkedin: "https://www.linkedin.com/in/zsherry168/",
   github: "https://github.com/zsherry168",
-  email: "mailto:sherrybzhang@gmail.com"
+  email: "mailto:sherrybzhang@gmail.com",
 };
 
 export default function Home() {
   return (
     <>
-      <Container className="py-4" style={{ marginTop: "80px", marginBottom: "20px"}}>
+      <Container
+        className="py-4"
+        style={{ marginTop: "80px", marginBottom: "20px" }}
+      >
         {/* Hero */}
         <Row className="align-items-start gy-4">
           <Col xs={12} md={5} lg={4}>
@@ -78,7 +81,7 @@ export default function Home() {
         </Row>
 
         {/* Divider */}
-        <hr style={{ marginTop: "45px", marginBottom: "35px"}}/>
+        <hr style={{ marginTop: "45px", marginBottom: "35px" }} />
 
         {/* Featured Projects */}
         <section>
