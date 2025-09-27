@@ -54,10 +54,10 @@ export default function About() {
           </Col>
         </Row>
 
-        <hr className="my-5" />
+        <hr style={{ marginTop: "45px", marginBottom: "35px"}}/>
 
         {/* EDUCATION */}
-        <EducationSection></EducationSection>
+        <EducationSection />
 
         {/* SKILLS */}
         <section className="mb-4">

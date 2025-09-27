@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
 
 export default function ContentCard({ title, date, desc, img, link, buttonText}) {
@@ -24,12 +23,3 @@ export default function ContentCard({ title, date, desc, img, link, buttonText})
     </Card>
   );
 }
-
-ContentCard.propTypes = {
-  title: PropTypes.string.isRequired,
-  date: PropTypes.string,
-  desc: PropTypes.string,
-  img: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-	buttonTextL: PropTypes.string.isRequired
-};

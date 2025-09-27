@@ -1,5 +1,5 @@
 import { Accordion } from "react-bootstrap";
-import ExperienceItem from "./ExperienceItem";
+import ExperienceCard from "./ExperienceCard";
 
 export default function ExperienceSection({
 	title,
@@ -10,14 +10,14 @@ export default function ExperienceSection({
 }) {
 	return (
 		<section className={className}>
-			<h2 className="h4 fw-bold mb-3">{title}</h2>
+			<h2 className="fw-bold mb-3">{title}</h2>
 			<Accordion
 				className="xp-accordion"
 				alwaysOpen={alwaysOpen}
 				defaultActiveKey={defaultOpen ?? undefined}
 			>
 				{items.map((item, idx) => (
-					<ExperienceItem key={`${title}-${idx}`} eventKey={String(idx)} {...item} />
+					<ExperienceCard key={`${title}-${idx}`} eventKey={String(idx)} {...item} />
 				))}
 			</Accordion>
 		</section>

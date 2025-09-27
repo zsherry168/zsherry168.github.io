@@ -1,4 +1,4 @@
-import { Container, Accordion } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ExperienceSection from "../components/ExperienceSection.jsx";
 import "./Experience.css";
 import { professional, academic, leadership, volunteering } from "../data/experience.js";
