@@ -10,12 +10,9 @@ export default function ExperienceItem({
   logoSrc
 }) {
   return (
-    // One collapsible card inside the parent <Accordion>
-    <Accordion.Item eventKey={eventKey} className="mb-2 rounded-2 shadow-sm border-0 xp-item">
+    <Accordion.Item eventKey={eventKey} className="mb-2 rounded-3 shadow-sm border-0 xp-item">
       <Accordion.Header>
-        {/* Flex row: fixed logo column + fluid text column */}
-        <div className="d-flex align-items-start gap-3 w-100">
-          {/* Fixed-size logo box that aligns text perfectly across cards */}
+        <div className="d-flex align-items-center gap-3 w-100">
           <div
             style={{
               width: 56,
@@ -31,8 +28,8 @@ export default function ExperienceItem({
             <img
               src={logoSrc}
               alt={`${org} logo`}
-              width={48}
-              height={48}
+              width={50}
+              height={50}
               style={{ 
                 maxWidth: "100%",
                 maxHeight: "100%",
@@ -41,7 +38,7 @@ export default function ExperienceItem({
               }}
             />
           </div>
-          {/* Text block: title, org/location, dates */}
+
           <div className="flex-grow-1">
             <div className="fw-semibold" style={{ marginBottom: 3 }}>{title}</div>
             <div className="text-secondary small" style={{ marginBottom: 3 }}>

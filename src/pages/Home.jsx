@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import PrimaryButton from "../components/PrimaryButton.jsx";
 import ContentCard from "../components/ContentCard.jsx";
 import projects from "../data/projects.js";
-import heroData from "../data/heroData.js";
+import hero from "../data/hero.js";
 import heroPortrait from "../assets/sherry_hero.png";
 import linkedinLogo from "../assets/linkedin_logo.png";
 import githubLogo from "../assets/github_logo.png";
@@ -28,10 +28,10 @@ export default function Home() {
             />
           </Col>
           <Col xs={12} md={7} lg={8}>
-            <h1 className="fw-bold display-5 mb-2">{heroData.name}</h1>
-            <div className="fs-5 text-body-emphasis mb-3">{heroData.title}</div>
+            <h1 className="fw-bold display-5 mb-2">{hero.name}</h1>
+            <div className="fs-5 text-body-emphasis mb-3">{hero.title}</div>
             <p className="text-secondary mb-4" style={{ maxWidth: 680 }}>
-              {heroData.blurb}
+              {hero.blurb}
             </p>
 
             <div className="d-flex align-items-center gap-3">
