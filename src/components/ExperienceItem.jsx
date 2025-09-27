@@ -45,7 +45,7 @@ export default function ExperienceItem({
           <div className="flex-grow-1">
             <div className="fw-semibold" style={{ marginBottom: 3 }}>{title}</div>
             <div className="text-secondary small" style={{ marginBottom: 3 }}>
-              {org} | {location}
+              { location ? `${org} | ${location}` : org }
             </div>
             <div className="text-secondary small"><em>{dates}</em></div>
           </div>
