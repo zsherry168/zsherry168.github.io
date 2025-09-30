@@ -9,6 +9,7 @@ const projects = [
     Quisque faucibus ex sapien vitae pellentesque sem placerat.`,
     img: projectCover,
     link: "/projects",
+    featured: false
   },
   {
     id: 3,
@@ -18,6 +19,7 @@ const projects = [
     Tempus leo eu aenean sed diam urna tempor.`,
     img: projectCover,
     link: "/projects",
+    featured: true
   },
   {
     id: 2,
@@ -26,7 +28,8 @@ const projects = [
     desc: `Quisque faucibus ex sapien vitae pellentesque sem placerat. 
     In id cursus mi pretium tellus duis convallis.`,
     img: projectCover,
-    link: "/projects"
+    link: "/projects",
+    featured: true
   },
   {
     id: 1,
@@ -35,7 +38,8 @@ const projects = [
     desc: `Tempus leo eu aenean sed diam urna tempor. 
     Pulvinar vivamus fringilla lacus nec metus bibendum egestas.`,
     img: projectCover,
-    link: "/projects"
+    link: "/projects",
+    featured: true
   }
 ];
 

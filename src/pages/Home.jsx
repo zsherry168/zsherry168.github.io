@@ -87,7 +87,9 @@ export default function Home() {
         <section>
           <h2 className="fw-bold mb-3">Featured Projects</h2>
           <Row className="g-4">
-            {projects.map((p) => (
+            {projects
+              .filter((p) => p.featured)
+              .map((p) => (
               <Col key={p.id} xs={12} md={6} lg={4}>
                 <ContentCard
                   title={p.title}
