@@ -20,6 +20,7 @@ export default function Home() {
           imageAlt="Sherry Zhang"
           name={hero.name}
           title={hero.title}
+          location={hero.location}
           blurb={hero.blurb}
         >
           <PrimaryButton href="/about">About Me</PrimaryButton>
