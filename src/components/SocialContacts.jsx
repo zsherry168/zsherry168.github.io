@@ -1,7 +1,3 @@
-import linkedinLogo from "../assets/linkedin_logo.png";
-import githubLogo from "../assets/github_logo.png";
-import emailLogo from "../assets/email_logo.png";
-
 export default function SocialContacts({ contacts, icons, size = 30 }) {
   return (
     <>
@@ -12,7 +8,7 @@ export default function SocialContacts({ contacts, icons, size = 30 }) {
         rel="noopener noreferrer"
       >
         <img
-          src={linkedinLogo}
+          src={icons.linkedin}
           alt="LinkedIn"
           width={size - 1}
           height={size - 1}
@@ -27,7 +23,7 @@ export default function SocialContacts({ contacts, icons, size = 30 }) {
         rel="noopener noreferrer"
       >
         <img
-          src={githubLogo}
+          src={icons.github}
           alt="GitHub"
           width={size}
           height={size}
@@ -37,7 +33,7 @@ export default function SocialContacts({ contacts, icons, size = 30 }) {
 
       <a href={contacts.email} aria-label="Email">
         <img
-          src={emailLogo}
+          src={icons.email}
           alt="Email"
           width={size}
           height={size}

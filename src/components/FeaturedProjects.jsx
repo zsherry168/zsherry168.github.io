@@ -1,11 +1,11 @@
 import { Row, Col } from "react-bootstrap";
 import ContentCard from "./ContentCard.jsx";
 
-export default function FeaturedProjects({ projects, heading = "Featured Projects" }) {
+export default function FeaturedProjects({ projects}) {
   const featured = (projects || []).filter((p) => p.featured);
   return (
     <section>
-      <h2 className="fw-bold mb-3">{heading}</h2>
+      <h2 className="fw-bold mb-3">Featured Projects</h2>
       <Row className="g-4">
         {featured.map((p) => (
           <Col key={p.id} xs={12} md={6} lg={4}>
