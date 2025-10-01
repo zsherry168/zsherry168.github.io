@@ -1,4 +1,7 @@
+import heroPortrait from "../assets/sherry_hero.png";
+
 const heroData = {
+  image: heroPortrait,
   name: "Sherry Zhang",
   title: "Software Engineer",
   blurb: `In Prudential Financial's Global Technology Rotational Program, 
