@@ -5,6 +5,7 @@ export default function Hero({
   imageAlt,
   name,
   title,
+  location,
   blurb,
   children,
 }) {
@@ -21,7 +22,8 @@ export default function Hero({
       </Col>
       <Col xs={12} md={7} lg={8}>
         <h1 className="fw-bold display-5 mb-2">{name}</h1>
-        <div className="fs-5 text-body-emphasis mb-3">{title}</div>
+        <div className="fs-5 text-body-emphasis mb-2">{title}</div>
+        <div className="fs-6 text-body-emphasis mb-2">{location}</div>
         <p className="text-secondary mb-4" style={{ maxWidth: 680 }}>
           {blurb}
         </p>
