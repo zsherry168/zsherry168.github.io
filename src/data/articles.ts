@@ -3,6 +3,7 @@ import snowflakeNYCCover from "../assets/snowflake_nyc_cover.jpg";
 
 export interface Article {
   id: number;
+  slug: string;
   title: string;
   date: string;
   desc: string;
@@ -13,6 +14,7 @@ export interface Article {
 const articles: Article[] = [
   { 
     id: 5, 
+    slug: "aws-she-builds-mentorship-program",
     title: "AWS She Builds Mentorship Program", 
     date: "November DD, 2025", 
     desc: `In id cursus mi pretium tellus duis convallis. 
@@ -22,6 +24,7 @@ const articles: Article[] = [
   },
   { 
     id: 4, 
+    slug: "dell-technologies-forum-2025",
     title: "Dell Technologies Forum", 
     date: "November DD, 2025", 
     desc: `Pulvinar vivamus fringilla lacus nec metus bibendum egestas. 
@@ -31,6 +34,7 @@ const articles: Article[] = [
   },
   { 
     id: 3, 
+    slug: "snowflake-build-2025",
     title: "Snowflake BUILD 2025", 
     date: "October DD, 2025", 
     desc: `Ut hendrerit semper vel class aptent taciti sociosqu. 
@@ -40,6 +44,7 @@ const articles: Article[] = [
   },
   { 
     id: 2, 
+    slug: "metlife-2025-triangle-tech-x",
     title: "MetLife 2025 Triangle Tech X", 
     date: "October DD, 2025", 
     desc: `Lorem ipsum dolor sit amet consectetur adipiscing elit. 
@@ -49,6 +54,7 @@ const articles: Article[] = [
   },
   { 
     id: 1, 
+    slug: "inside-the-data-revolution",
     title: "Inside the Data Revolution", 
     date: "October 04, 2025", 
     desc: `Key takeaways from Snowflake World Tour NYC 2025 — 

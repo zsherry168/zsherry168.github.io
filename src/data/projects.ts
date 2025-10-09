@@ -2,6 +2,7 @@ import projectCover from "../assets/project_placeholder.jpg";
 
 export interface Project {
   id: number;
+  slug: string;
   title: string;
   date: string;
   desc: string;
@@ -13,6 +14,7 @@ export interface Project {
 const projects: Project[] = [
   { 
 		id: 4, 
+    slug: "java-project",
 		title: "Java Project", 
 		date: "Work In Progress", 
 		desc: `Lorem ipsum dolor sit amet consectetur adipiscing elit. 
@@ -23,6 +25,7 @@ const projects: Project[] = [
 	},
   { 
 		id: 3, 
+    slug: "personal-website",
 		title: "Personal Website", 
 		date: "Aug 2025 - Present", 
 		desc: `In id cursus mi pretium tellus duis convallis. 
@@ -33,6 +36,7 @@ const projects: Project[] = [
 	},
   { 
 		id: 2, 
+    slug: "chit-chat",
 		title: "Chit Chat", 
 		date: "2023 (Refactored 2025)", 
 		desc: `Quisque faucibus ex sapien vitae pellentesque sem placerat. 
@@ -43,6 +47,7 @@ const projects: Project[] = [
 	},
   { 
 		id: 1, 
+    slug: "nittany-reads",
 		title: "Nittany Reads", 
 		date: "2023 (Refactored 2025)", 
 		desc: `Tempus leo eu aenean sed diam urna tempor. 
