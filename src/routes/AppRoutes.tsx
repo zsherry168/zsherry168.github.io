@@ -6,6 +6,8 @@ import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
 import Blog from "../pages/Blog";
+import ProjectArticle from "../pages/ProjectArticle";
+import BlogArticle from "../pages/BlogArticle";
 
 export function AppRoutes() {
   return (
@@ -16,6 +18,8 @@ export function AppRoutes() {
         <Route path="projects" element={<Projects />} />
         <Route path="experience" element={<Experience />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="projects/:slug" element={<ProjectArticle/>} />
+        <Route path="blog/:slug" element={<BlogArticle/>} />
       </Route>
     </Routes>
   );

@@ -14,7 +14,7 @@ export default function Projects() {
               date={p.date}
               desc={p.desc}
               img={p.img}
-              link={p.link}
+              link={`/projects/${p.slug}`}
               buttonText="View Project"
             />
           </Col>
