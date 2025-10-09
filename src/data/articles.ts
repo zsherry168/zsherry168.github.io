@@ -1,4 +1,5 @@
 import articleCover from "../assets/article_placeholder.jpg";
+import snowflakeNYCCover from "../assets/snowflake_nyc_cover.jpg";
 
 export interface Article {
   id: number;
@@ -48,11 +49,12 @@ const articles: Article[] = [
   },
   { 
     id: 1, 
-    title: "Snowflake World Tour 2025 — New York City", 
-    date: "October DD, 2025", 
-    desc: `In id cursus mi pretium tellus duis convallis. 
-    Tempus leo eu aenean sed diam urna tempor.`, 
-    img: articleCover, 
+    title: "Inside the Data Revolution", 
+    date: "October 04, 2025", 
+    desc: `Key takeaways from Snowflake World Tour NYC 2025 — 
+    from building trustworthy AI with Nasdaq to lessons in 
+    scaling technology and credibility.`, 
+    img: snowflakeNYCCover, 
     link: "/blogs/blog-1" 
   },
 ];
